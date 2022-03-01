@@ -16,8 +16,7 @@ const Header = () => (
     <img
       src={LogoImage}
       layout="intrinsic"
-      width="81"
-      height="79"
+      
       alt="Earn Management"
     />
     <Navigations>

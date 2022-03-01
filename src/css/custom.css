@@ -37,3 +37,29 @@ html[data-theme='dark'] {
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+@font-face {
+  font-family: 'spartan_mbsemibold';
+  src: url('../assets/fonts/spartanmb-semibold-webfont.woff2') format('woff2'),
+       url('../assets/fonts/spartanmb-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'outfit500';
+  src: url('../assets/fonts/Outfit-Medium.woff2') format('woff2'),
+       url('../assets/fonts/Outfit-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'outfit400';
+  src: url('../assets/fonts/Outfit-Regular.woff2') format('woff2'),
+       url('../assets/fonts/Outfit-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

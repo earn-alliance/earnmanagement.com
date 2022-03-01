@@ -14,10 +14,10 @@ import CarouselData from '../components/HomeCarouselData';
 const HomeCarouselWrapper = () => (
   <HomeImageWrapper>
     <Carousel
-      autoPlay
+      // autoPlay
       showArrows={false}
       showStatus={false}
-      showThumbs
+      showThumbs={false}
       emulateTouch
       useKeyboardArrows
       interval={3000}
@@ -25,20 +25,24 @@ const HomeCarouselWrapper = () => (
     >
       {CarouselData.map((item) => (
         <CarouselImage>
-          <HomeImageText>
-            <HomeImagescreen>
+          {/* <HomeImageText> */}
+            {/* <HomeImagescreen> */}
               <img
                 className="carousel-img"
                 src={item?.src}
                 alt=" "
                 layout="intrinsic"
-                width={item?.width}
-                height={item?.height}
+                // width={item?.width}
+                // height={item?.height}
               />
-            </HomeImagescreen>
-            <HomeText>{item?.text}</HomeText>
+              <div className="legend">
+              <HomeText >{item?.text}</HomeText>
             <HomePara>{item?.para}</HomePara>
-          </HomeImageText>
+              </div>
+              
+            {/* </HomeImagescreen> */}
+            
+          {/* </HomeImageText> */}
         </CarouselImage>
       ))}
     </Carousel>

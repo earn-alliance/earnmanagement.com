@@ -2,6 +2,8 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import Dropdown from '../components/DropDown';
 import ImageBox from '../components/ImageContainer';
+
+
 import {
   Content,
   Title,
@@ -74,6 +76,7 @@ const ContentSection = () => {
           </Footnote>
         </Wrapper>
         <ImageBox />
+       
       </Content>
     </>
   );

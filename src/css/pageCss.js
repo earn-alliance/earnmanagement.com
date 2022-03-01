@@ -2,44 +2,53 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  background: #edf3f4;
+  /* background: #edf3f4; */
   /* background: #fcfefe; */
-
   background-blend-mode: overlay, normal;
   overflow: hidden;
+  grid-template-rows: auto 1fr;
   display: grid;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   .icon {
     cursor: pointer;
   }
   /* height: 100%; */
-  grid-gap: 10px;
-  @media screen and (max-height: 600px) {
+  /* @media screen and (max-height: 600px) {
     height: 100vh;
-  }
+  } */
 `;
 export const HeadSection = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 23px 40px 0px 40px;
-
+  padding: 30px 65px;
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(40px);
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
   @media screen and (max-width: 1000px) {
-    padding: 25px 40px 0px 40px;
+    padding: 30px;
+  }
+  @media screen and (max-width: 679px) {
+    padding: 30px 15px;
+    img {
+      max-width: 50px;
+    }
   }
 `;
 export const Navigations = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  grid-gap: 50px;
+  gap: 50px;
+  @media (max-width:679px) {
+    gap: 20px;
+  }
 `;
 export const NavLink = styled.div`
-  font-family: Graphik;
-  font-weight: 500;
+  font-family: 'spartan_mbsemibold';
   font-size: 16px;
   line-height: 24px;
   color: #000000;
@@ -56,6 +65,9 @@ export const Contact = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 56px;
+  @media (max-width:679px) {
+    height: auto;
+  }
 `;
 export const ContactTwitter = styled.div`
   width: 43px;
@@ -72,6 +84,10 @@ export const ContactTwitter = styled.div`
       fill: #ffffff;
     }
   }
+  @media (max-width:679px) {
+    width: 30px;
+  height: 30px;
+  }
 `;
 export const ContactDiscord = styled.div`
   width: 43px;
@@ -81,7 +97,6 @@ export const ContactDiscord = styled.div`
   align-items: center;
   border-radius: 50%;
   cursor: pointer;
-
   :hover {
     background: #5865f2;
     padding: 14px 12px;
@@ -89,34 +104,51 @@ export const ContactDiscord = styled.div`
       fill: #ffffff;
     }
   }
+  @media (max-width:679px) {
+    width: 30px;
+  height: 30px;
+  }
 `;
 export const Content = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 0px 0px 130px;
-
-  @media screen and (max-width: 1400px) {
-    padding: 0px 0px 0px 80px;
+  gap: 20px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  @media screen and (max-width: 880px) {
+    grid-template-columns: 1fr;
+  }
+  @media screen and (max-width: 679px) {
+  padding: 20px;
   }
 
-  @media screen and (max-width: 1200px) {
+  /* @media screen and (max-width: 1200px) {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto;
-  }
+  } */
 `;
 export const Wrapper = styled.div`
   display: grid;
   align-content: space-between;
-  height: 500px;
+  min-height: 500px;
+  padding-left: 82px;
+  @media (max-width:880px) {
+    min-height: auto;
+    padding-left: 0;
+  }
 `;
 export const FormWrapper = styled.div`
   width: 100%;
   max-width: 614px;
   align-self: center;
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 880px) {
     max-width: 100%;
+    text-align: center;
   }
 `;
 export const Footnote = styled.div`
@@ -125,20 +157,21 @@ export const Footnote = styled.div`
   line-height: 24px;
   color: #000000;
   cursor: pointer;
+  @media screen and (max-width: 880px) {
+    text-align: center;
+  }
 `;
 
 export const Title = styled.div`
-  font-family: Outfit;
-  font-weight: 500;
-  font-size: 80px;
-  line-height: 88px;
+  font-family: 'outfit500';
+  font-size: clamp(1rem, 6vw, 80px);
+  line-height: clamp(1rem, 6vw, 88px);
   color: #262a50;
 `;
 export const Text = styled.div`
-  font-family: Outfit;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+  font-family: 'outfit400';
+  font-size: clamp(1rem,1.3vw,20px);
+  line-height: clamp(1rem,2.3vw,30px);
   letter-spacing: 0.2px;
   color: #9fa7b1;
   margin-top: 24px;
@@ -146,7 +179,7 @@ export const Text = styled.div`
 
 export const ImageWrapper = styled.div`
   display: grid;
-  height: 650px;
+  /* height: 650px; */
   width: 100%;
   max-width: 834px;
   background: radial-gradient(
@@ -157,7 +190,7 @@ export const ImageWrapper = styled.div`
 `;
 export const ImageSection = styled.div`
   position: absolute;
-  width: 660px;
+  /* width: 660px; */
   background: radial-gradient(
     41.76% 41.76% at 50% 50%,
     rgba(0, 209, 255, 0.24) 0%,
@@ -255,12 +288,12 @@ export const InputWrapper = styled.div`
   .email_address {
     width: 100%;
     max-width: 307px;
-    height: 71px;
+    height: 48px;
     background: none;
     border: none;
     outline: none;
-    padding: 3px 0px 0px 25px;
-    font-family: Outfit;
+    padding: 0 0 0 27px;
+    font-family: 'outfit400';
     font-size: 14px;
     line-height: 106px;
     border-right: 1px solid #d4d4d4;
@@ -275,7 +308,7 @@ export const InputWrapper = styled.div`
     }
   }
   .home_select {
-    font-family: Outfit;
+    font-family: 'outfit400';
     font-size: 14px;
     height: 70px;
     display: flex;
@@ -287,7 +320,7 @@ export const InputWrapper = styled.div`
       min-width: 125px;
       background: none;
       border: none;
-      font-family: Outfit;
+      font-family: 'outfit400';
       font-size: 14px;
       color: #3e3e3e;
       padding-left: 2px;
@@ -314,6 +347,9 @@ export const InputWrapper = styled.div`
     .css-tlfecz-indicatorContainer {
       color: #3e3e3e;
     }
+  }
+  @media screen and (max-width: 880px) {
+    margin: 38px auto 0;
   }
 `;
 export const Footer = styled.div`
