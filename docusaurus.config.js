@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Earn Management',
+  tagline: 'Guild of Guilds',
+  url: 'https://earnmanagement.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'earn-alliance', // Usually your GitHub org/user name.
+  projectName: 'earnmanagement.com', // Usually your repo name.
 
   presets: [
     [
@@ -43,23 +43,30 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Earn Management',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Earn Management Logo',
+          src: 'img/EarnHome.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://app.earnmanagement.com',
+            label: 'Login',
             position: 'right',
+            className: 'header-login-link'
+          },
+          {
+            href: 'https://app.earnmanagement/signup',
+            label: 'Register',
+            position: 'right',
+            className: 'header-register-link'
           },
         ],
       },
@@ -67,11 +74,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Site',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'Login',
+                href: 'https://app.earnmanagement.com'
+              },
+              {
+                label: 'Register',
+                href: 'https://app.earnmanagement.com/signup'
               },
             ],
           },
@@ -79,16 +98,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Roadmap',
+                href: 'https://roadmap.earnmanagement.com',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/EmGzug9FKd',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/earnalliance',
               },
             ],
           },
@@ -96,8 +115,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Contact Us',
+                to: '/contact',
               },
               {
                 label: 'GitHub',
@@ -106,7 +125,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Earn Alliance Limited. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

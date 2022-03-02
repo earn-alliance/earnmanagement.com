@@ -8,6 +8,7 @@ const Home = () => (
   <>
     <Container>
       <Header />
+        CONTACT US PAGE
       <ContentSection />
     </Container>
   </>

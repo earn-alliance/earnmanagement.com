@@ -20,9 +20,9 @@ const Header = () => (
       alt="Earn Management"
     />
     <Navigations>
-      <NavLink>Blog</NavLink>
-      <NavLink>Roadmap</NavLink>
-      <NavLink>Contact</NavLink>
+      <NavLink><a href="/blog">Blog</a></NavLink>
+      <NavLink><a href="https://roadmap.earnmanagement.com">Roadmap</a></NavLink>
+      <NavLink><a href="/contact">Contact</a></NavLink>
     </Navigations>
     <Contact>
       <ContactDiscord>
