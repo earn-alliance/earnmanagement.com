@@ -56,18 +56,18 @@ const config = {
             label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://app.earnmanagement.com',
-            label: 'Login',
-            position: 'right',
-            className: 'header-login-link'
-          },
-          {
-            href: 'https://app.earnmanagement/signup',
-            label: 'Register',
-            position: 'right',
-            className: 'header-register-link'
-          },
+          // {
+          //   href: 'https://app.earnmanagement.com',
+          //   label: 'Login',
+          //   position: 'right',
+          //   className: 'header-login-link'
+          // },
+          // {
+          //   href: 'https://app.earnmanagement/signup',
+          //   label: 'Register',
+          //   position: 'right',
+          //   className: 'header-register-link'
+          // },
         ],
       },
       footer: {
@@ -84,14 +84,14 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'Login',
-                href: 'https://app.earnmanagement.com'
-              },
-              {
-                label: 'Register',
-                href: 'https://app.earnmanagement.com/signup'
-              },
+              // {
+              //   label: 'Login',
+              //   href: 'https://app.earnmanagement.com'
+              // },
+              // {
+              //   label: 'Register',
+              //   href: 'https://app.earnmanagement.com/signup'
+              // },
             ],
           },
           {
