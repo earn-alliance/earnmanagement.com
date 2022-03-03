@@ -6,10 +6,14 @@ import Discord from '../../static/img/DiscordWhiteIcon';
 import { DiscordLink } from '../../src/css/homeIndex';
 const Home = () => (
   <>
-    <Container>
+    <div className='containerHome'>
       <Header />
       <ContentSection />
-    </Container>
+      <div className='foot-note'>
+            Note: Earn Alliance and its subsidiaries are not affiliated with
+            Axie Infinity.
+          </div>
+    </div>
   </>
 );
 export default Home;

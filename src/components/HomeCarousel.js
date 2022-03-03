@@ -12,9 +12,9 @@ import {
 import CarouselData from '../components/HomeCarouselData';
 
 const HomeCarouselWrapper = () => (
-  <HomeImageWrapper>
+  <div className='home-image-wrapper'>
     <Carousel
-      // autoPlay
+      autoPlay
       showArrows={false}
       showStatus={false}
       showThumbs={false}
@@ -24,7 +24,7 @@ const HomeCarouselWrapper = () => (
       infiniteLoop
     >
       {CarouselData.map((item) => (
-        <CarouselImage>
+        <div>
           {/* <HomeImageText> */}
             {/* <HomeImagescreen> */}
               <img
@@ -36,17 +36,17 @@ const HomeCarouselWrapper = () => (
                 // height={item?.height}
               />
               <div className="legend">
-              <HomeText >{item?.text}</HomeText>
-            <HomePara>{item?.para}</HomePara>
+              <h4 className='home-carousel-text'>{item?.text}</h4>
+            <p className='home-carousel-para'>{item?.para}</p>
               </div>
               
             {/* </HomeImagescreen> */}
             
           {/* </HomeImageText> */}
-        </CarouselImage>
+        </div>
       ))}
     </Carousel>
-  </HomeImageWrapper>
+  </div>
 );
 
 export default HomeCarouselWrapper;

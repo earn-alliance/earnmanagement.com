@@ -29,16 +29,16 @@ const ContentSection = () => {
   const onSubmit = (data) => {};
   return (
     <>
-      <Content>
-        <Wrapper>
-          <FormWrapper>
-            <Title>Guild Hub of the Metaverse</Title>
-            <Text>
+      <div className='content-container'>
+        <div className='content-wrapper'>
+          <div className='formWrapper-div'>
+            <div className='content-title'>Guild Hub of the Metaverse</div>
+            <div className='content-text'>
               The only advanced automation tool you need to run your Axie
               Infinity scholarship. Coming soon to a metaverse near you.
-            </Text>
+            </div>
             <form onSubmit={handleSubmit(onSubmit)}>
-              <InputWrapper>
+              <div className='input-wrapper-div'>
                 <input
                   name="email"
                   className="email_address"
@@ -60,24 +60,20 @@ const ContentSection = () => {
                   placeholder="Type"
                 />
                 <Button type="submit">
-                  <SubmitButton>
+                  <div className='submit-button'>
                     <Send className="icon" />
-                  </SubmitButton>
+                  </div>
                 </Button>
-              </InputWrapper>
-              <ErrorMessage>
+              </div>
+              <p className='error-message'>
                 {errors.email && <p>This field is required</p>}
-              </ErrorMessage>
+              </p>
             </form>
-          </FormWrapper>
-          <Footnote>
-            Note: Earn Alliance and its subsidiaries are not affiliated with
-            Axie Infinity.
-          </Footnote>
-        </Wrapper>
+          </div>
+        </div>
         <ImageBox />
        
-      </Content>
+      </div>
     </>
   );
 };
