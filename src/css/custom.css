@@ -214,7 +214,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background: none;
   border: none;
   outline: none;
-  padding: 0 0 0 27px;
+  margin: 0 0 0 27px;
   font-family: 'outfit400';
   font-size: 14px;
   line-height: 106px;
@@ -293,7 +293,15 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   letter-spacing: -0.02em;
   color: #ff5b51;
   margin-bottom: 8px;
+  position: absolute;
+  bottom: -18px;
+  left: -1px;
 }
+
+.text-error-wrapper{
+  width: 100%;
+}
+
 .foot-note{
   font-weight: 500;
   font-size: 12px;
@@ -481,11 +489,74 @@ li {
   align-items: center;
   border-bottom: 1px solid rgba(57, 57, 57, 0.18);
   width: 100%;
+  position: relative;
 }
 
 .request-button :hover {
   transform: scale(1.02);
 }
+
+.error-message-home{
+  text-align: left;
+  width: 100%;
+  margin: 2px;
+  height: 7px;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  color: #ff5b51;
+  margin-bottom: 8px;
+}
+
+.success-button{
+  width: 100%;
+  min-width: 162px;
+  max-width: 162px;
+  height: 54px;
+  background: linear-gradient(91.19deg, #50b7dc 1.05%, #2387dc 100%);
+  border-radius: 10px;
+  opacity: 1;
+  align-items: center;
+  color: #ffffff !important;
+  font-size: 14px;
+  margin-top: 41px;
+  text-transform: capitalize;
+}
+
+.success-button :hover {
+  opacity: 0.5,
+}
+
+.success-content-div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 290px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.success-main-div{
+  display: flex;
+  justify-content:flex-end;
+}
+
+.close-svg{
+  cursor: pointer;
+}
+
+.modal-message{
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #262a50;
+}
+
 
 @media screen and (max-width: 1000px) {
   .header-container{

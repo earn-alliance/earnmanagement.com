@@ -6,7 +6,7 @@ const TextInput = (props) => {
   const [showPassword, setShowPassword] = useState(false);
   const { name } = props;
   return (
-    <div className='text-input-container'>
+    <div className='text-error-wrapper'>
       <Controller
         render={({ field }) => (
           <input

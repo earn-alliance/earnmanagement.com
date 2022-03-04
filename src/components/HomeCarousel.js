@@ -23,8 +23,8 @@ const HomeCarouselWrapper = () => (
       interval={3000}
       infiniteLoop
     >
-      {CarouselData.map((item) => (
-        <div>
+      {CarouselData.map((item,index) => (
+        <div key={index}>
           {/* <HomeImageText> */}
             {/* <HomeImagescreen> */}
               <img
