@@ -18,17 +18,24 @@
     "@docusaurus/preset-classic": "2.0.0-beta.15",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
+    "@hookform/resolvers": "^2.8.8",
     "@material-ui/core": "^4.12.3",
     "@mdx-js/react": "^1.6.21",
     "@mui/material": "^5.4.3",
+    "@reduxjs/toolkit": "^1.8.0",
     "clsx": "^1.1.1",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-hook-form": "^7.27.1",
+    "react-modal": "^3.14.4",
+    "react-query": "^3.34.16",
+    "react-redux": "^7.2.6",
     "react-responsive-carousel": "^3.2.22",
     "react-select": "^5.2.2",
-    "styled-components": "^5.3.3"
+    "redux": "^4.1.2",
+    "styled-components": "^5.3.3",
+    "yup": "^0.32.11"
   },
   "browserslist": {
     "production": [
