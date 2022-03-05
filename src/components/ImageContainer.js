@@ -5,13 +5,13 @@ import HomeCarouselWrapper from '../components/HomeCarousel';
 
 const ImageBox = () => (
   <>
-    <ImageWrapper>
+    <div className='image-wrapper'>
       <HomeCarouselWrapper />
       {/* <DiscordLink>
         <Discord className="discord_icon" />
         Join Discord
       </DiscordLink> */}
-    </ImageWrapper>
+    </div>
   </>
 );
 export default ImageBox;
