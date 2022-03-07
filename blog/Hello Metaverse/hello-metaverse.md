@@ -1,7 +1,7 @@
 ---
 slug: hello-metaverse
 title: Hello, Metaverse
-authors: ["Earn Alliance"]
+authors: [earn-alliance]
 tags: ["Earn Alliance", "Axie Infinity", "play to earn", "crypto games", "nft games", "eth", "slp", "axs", "ronin"]
 ---
 
