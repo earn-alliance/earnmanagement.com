@@ -98,6 +98,7 @@ const ContentSection = () => {
                   control={control}
                   type="text"
                   placeholder="Your Email Address"
+                  autoComplete='off'
                   {...register("email")}
                 />
                 <Dropdown

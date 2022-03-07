@@ -216,7 +216,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   outline: none;
   margin: 0 0 0 27px;
   font-family: 'outfit400';
-  font-size: 14px;
+  font-size: 16px;
   line-height: 106px;
   border-right: 1px solid #d4d4d4;
   color: #3939399e;
@@ -233,7 +233,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .home_select {
   font-family: 'outfit400';
-  font-size: 14px;
+  font-size: 16px;
   height: 70px;
   display: flex;
 }
@@ -246,7 +246,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     background: none;
     border: none !important;
     font-family: 'outfit400';
-    font-size: 14px;
+    font-size: 16px;
     color: #3e3e3e;
     padding-left: 2px;
   }
@@ -307,7 +307,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-size: 12px;
   line-height: 24px;
   color: #000000;
-  cursor: pointer;
   padding: 0 50px 20px;
 }
 
@@ -450,7 +449,7 @@ li {
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.21);
   font-family: 'outfit400';
-  font-size: max(1vw,12px);
+  font-size: max(1vw,16px);
   color: #000000;
   mix-blend-mode: luminosity;
   padding-bottom: 5px;

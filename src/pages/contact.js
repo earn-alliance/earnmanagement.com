@@ -116,7 +116,8 @@ const closeErrorModal = () => {
                   className="info_input"
                   control={control}
                   type="text"
-                  placeholder="Firstname"
+                  placeholder="First name"
+                  autoComplete='off'
                   {...register("firstname")}
                 />
                 <p className='error-message'>
@@ -129,7 +130,8 @@ const closeErrorModal = () => {
                   className="info_input"
                   control={control}
                   type="text"
-                  placeholder="Lastname"
+                  autoComplete='off'
+                  placeholder="Last name"
                   {...register("lastname")}
                 />
                 <p className='error-message'>
@@ -142,6 +144,7 @@ const closeErrorModal = () => {
                   className="info_input"
                   control={control}
                   type="text"
+                  autoComplete='off'
                   placeholder="Email"
                   {...register("email")}
                 />
@@ -155,6 +158,7 @@ const closeErrorModal = () => {
                   className="info_input"
                   control={control}
                   type="text"
+                  autoComplete='off'
                   placeholder="Company"
                   {...register("company")}
                 />
@@ -168,6 +172,7 @@ const closeErrorModal = () => {
                   className="info_input"
                   control={control}
                   type="text"
+                  autoComplete='off'
                   placeholder="Message"
                   {...register("message")}
                 />
