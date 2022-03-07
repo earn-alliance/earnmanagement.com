@@ -131,7 +131,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .contact-discord:hover {
   background: #5865f2;
-  padding: 14px 12px;
 }
 .icon:hover {
   fill: #ffffff;
@@ -149,7 +148,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .twitter-div:hover {
   background: #0cb7f4;
-  padding: 14px 12px;
 }
 
 .content-container{
@@ -491,7 +489,7 @@ li {
   position: relative;
 }
 
-.request-button :hover {
+.request-button:hover {
   transform: scale(1.02);
 }
 
@@ -523,7 +521,7 @@ li {
   text-transform: capitalize;
 }
 
-.success-button :hover {
+.success-button:hover {
   opacity: 0.5,
 }
 
