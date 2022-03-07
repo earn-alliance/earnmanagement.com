@@ -24,8 +24,9 @@ This journey begins with the introduction of **our first tool: Earn Management**
 From understanding scholar performance and automating complex payments to creating metas and distributing teams– all for **free** and **readily accessible** on a single platform– we're here for you. Check out our roadmap to learn more about where we're heading.
 
 We've just arrived at the new frontier. This is only the very beginning.
-<br><br><br>
-Welcome aboard! Join us on [Discord](https://discord.com/channels/926167446648397836/949216955708112897) to be a part of our community. We look forward to getting to know you.
+
+
+Welcome aboard! Join us on [Discord](https://discord.com/channels/926167446648397836/949216955708112897 "Discord") to be a part of our community. We look forward to getting to know you.
 
 
 
