@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  padding: 5px 10px;
   /* background: #edf3f4; */
   /* background: #fcfefe; */
   background-blend-mode: overlay, normal;
