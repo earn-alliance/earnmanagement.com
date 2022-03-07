@@ -568,9 +568,6 @@ li {
   .foot-note{
       text-align: center;
   }
-  .home_select {
-    margin: 38px auto 0;
-  }
   .content-container{
   grid-template-columns: 1fr;
   }
@@ -609,4 +606,11 @@ li {
     height: 30px;
   }
 
+}
+
+@media screen and (max-width: 410px) {
+
+  .css-1s2u09g-control{
+    min-width: 100px;
+  }
 }
