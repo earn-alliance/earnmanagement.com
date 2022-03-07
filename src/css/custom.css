@@ -82,7 +82,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 65px;
+  padding: 10px 65px;
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(40px);
   max-width: 1920px;
@@ -401,7 +401,7 @@ li {
   font-size: max(0.93vw,12px);
   letter-spacing: 0.2px;
   color: #000000;
-  margin-bottom: max(4.18vw,30px);
+  margin-bottom: max(3.18vw,30px);
 }
 
 .info-section{

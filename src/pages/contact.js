@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Container } from '../css/pageCss';
 import { useForm } from 'react-hook-form';
 import Header from '../components/Header';
@@ -8,8 +8,35 @@ import axios from 'axios';
 import { contactFormSchema } from '../../validators';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { SUBSCRIBE_FORM, CONTACT_FORMID } from '../../api';
+import Loader from '../components/Loader';
+import Modal from 'react-modal';
+import SuccessImage from '../../static/img/Success.png';
+import CloseIcon from '../../static/img/CrossIcon';
+import ErrorImage from '../../static/img/Error.png'
+
+const customStyles = {
+  overlay: {
+    background: 'rgba(0,0,0,0.6)',
+    zIndex: '100',
+  },
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+    minHeight:"400px",
+    width:"350px",
+    borderRadius:"12px",
+  },
+};
 
 const Contact = () => {
+  const [loader, setLoader] = React.useState(false);
+  const [modalIsOpen, setIsOpen] = useState(false);
+  const [ErrormodalIsOpen, setErrorModalOpen] = useState(false);
+
   const {
     register,
     handleSubmit,
@@ -18,11 +45,17 @@ const Contact = () => {
   } = useForm({
     mode: 'onSubmit',
     resolver: yupResolver(contactFormSchema),
+    defaultValues:{
+      firstname: "",
+      lastname: "",
+      email: "",
+      company: "",
+      message: "",
+    }
   });
 
 
  const submitContactForm = async (body) => {
-  console.log('body === ', body)
   let fields = [];
   Object.keys(body).forEach((key) => {
     fields.push({ name: key, value: body[key] });
@@ -30,17 +63,40 @@ const Contact = () => {
 
   let { data } = await axios.post(`${SUBSCRIBE_FORM}/${CONTACT_FORMID}`, {
     fields: fields,
-  });
+  }).then(function (response) {
+    setLoader(false);
+    setIsOpen(true)
+  })
+  .catch(function (error) {
+    setLoader(false);
+    setErrorModalOpen(true);
+  })
   return data;
 };
 
+const closeModal = () => {
+  window.location.reload();
+}
+
+const closeErrorModal = () => {
+  window.location.reload();
+}
 
   const onSubmit = async (data) => {
-    const response = await submitContactForm(data);
+    setLoader(true);
+    const newKeys = { 
+      firstname: data.firstname,
+      lastname: data.lastname,
+      email: data.email,
+      company: data.company,
+      message: data.message,
+    }
+    const response = await submitContactForm(newKeys);
   };
-console.log(errors)
+
   return (
     <>
+    {loader && <Loader />}
         <Container>
           <Header />
           <div className='contact-wrapper'>
@@ -52,18 +108,7 @@ console.log(errors)
             </div>
           </div>
           <div className='information-div'>
-            {/* <div className='info-section'>
-          <div className='info-text'>Earnmanagement.com</div>
-          <div className='info-number'>
-            <div className='info-code'>US</div>
-            +1(872)2889283
-          </div>
-          <div className='info-number'>
-            <div className='info-code'>UA</div>
-            +1(872)2889283
-          </div>
-        </div> */}
-            <form onSubmit={handleSubmit(onSubmit)}>
+             <form onSubmit={handleSubmit(onSubmit)}>
               <div className='input-section'>
                 <div className='text-input-container'>
                 <TextInput
@@ -139,6 +184,39 @@ console.log(errors)
           <div className='submit-request-div'>
           </div>
         </Container>
+        <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        shouldCloseOnOverlayClick={false}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+        <div className='success-main-div'>
+         <CloseIcon className='close-svg' onClick={closeModal} />
+         </div>
+       <div className='success-content-div'>
+         <img src={SuccessImage} width="80px" height="200px" alt="success_image"/>
+         <span className='modal-message'>We will contact you shortly</span>
+         <Button className='success-button' onClick={closeModal}>Ok</Button>
+       </div>
+      </Modal>
+      <Modal
+        isOpen={ErrormodalIsOpen}
+        onRequestClose={closeErrorModal}
+        shouldCloseOnOverlayClick={false}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+        <div className='success-main-div'>
+         <CloseIcon className='close-svg' onClick={closeErrorModal} />
+         </div>
+       <div className='success-content-div'>
+         <img src={ErrorImage} width="80px" height="200px" alt="success_image"/>
+         <span className='modal-message'>Error!! <br /> Please try later</span>
+         <Button className='success-button' onClick={closeErrorModal}>Ok</Button>
+       </div>
+      </Modal>
+
     </>
   );
 };
