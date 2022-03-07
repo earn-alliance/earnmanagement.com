@@ -82,7 +82,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 65px;
+  padding: 10px 65px;
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(40px);
   max-width: 1920px;
@@ -131,7 +131,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .contact-discord:hover {
   background: #5865f2;
-  padding: 14px 12px;
 }
 .icon:hover {
   fill: #ffffff;
@@ -149,7 +148,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .twitter-div:hover {
   background: #0cb7f4;
-  padding: 14px 12px;
 }
 
 .content-container{
@@ -216,8 +214,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   outline: none;
   margin: 0 0 0 27px;
   font-family: 'outfit400';
-  font-size: 14px;
-  line-height: 106px;
+  font-size: 16px;
   border-right: 1px solid #d4d4d4;
   color: #3939399e;
 }
@@ -233,7 +230,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .home_select {
   font-family: 'outfit400';
-  font-size: 14px;
+  font-size: 16px;
   height: 70px;
   display: flex;
 }
@@ -246,7 +243,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     background: none;
     border: none !important;
     font-family: 'outfit400';
-    font-size: 14px;
+    font-size: 16px;
     color: #3e3e3e;
     padding-left: 2px;
   }
@@ -307,7 +304,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-size: 12px;
   line-height: 24px;
   color: #000000;
-  cursor: pointer;
   padding: 0 50px 20px;
 }
 
@@ -401,7 +397,7 @@ li {
   font-size: max(0.93vw,12px);
   letter-spacing: 0.2px;
   color: #000000;
-  margin-bottom: max(4.18vw,30px);
+  margin-bottom: max(3.18vw,30px);
 }
 
 .info-section{
@@ -450,7 +446,7 @@ li {
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.21);
   font-family: 'outfit400';
-  font-size: max(1vw,12px);
+  font-size: max(1vw,16px);
   color: #000000;
   mix-blend-mode: luminosity;
   padding-bottom: 5px;
@@ -492,7 +488,7 @@ li {
   position: relative;
 }
 
-.request-button :hover {
+.request-button:hover {
   transform: scale(1.02);
 }
 
@@ -524,7 +520,7 @@ li {
   text-transform: capitalize;
 }
 
-.success-button :hover {
+.success-button:hover {
   opacity: 0.5,
 }
 
@@ -568,9 +564,6 @@ li {
   .foot-note{
       text-align: center;
   }
-  .home_select {
-    margin: 38px auto 0;
-  }
   .content-container{
   grid-template-columns: 1fr;
   }
@@ -609,4 +602,11 @@ li {
     height: 30px;
   }
 
+}
+
+@media screen and (max-width: 410px) {
+
+  .css-1s2u09g-control{
+    min-width: 100px;
+  }
 }

@@ -1,17 +1,17 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+earn-alliance:
+  name: Earn Alliance
+  title: Site Admin
+  url: https://github.com/earn-alliance
+  image_url: https://github.com/endiliey.png #TODO
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+joseph-cooper:
+  name: Jospeh "Coop" Cooper
+  title: Advisor
+  url: https://github.com/disturbing
+  image_url: https://github.com/yangshun.png #TODO
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+tiffany-chan:
+  name: Tiffany Chan
+  title: Head of Content
+  url: https://sebastienlorber.com #TODO
+  image_url: https://github.com/slorber.png #TODO

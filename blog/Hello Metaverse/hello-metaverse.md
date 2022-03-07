@@ -1,15 +1,12 @@
-
-   
 ---
 slug: hello-metaverse
 title: Hello, Metaverse
-authors: [Earn Alliance]
-tags: [Earn Alliance, Earn Management, Axie Infinity, Axie tools, Axie builder, play and earn, play to earn, blockchain gaming, Axie guild]
+authors: [earn-alliance]
+tags: ["Earn Alliance", "Axie Infinity", "play to earn", "crypto games", "nft games", "eth", "slp", "axs", "ronin"]
 ---
 
-# Hello, Metaverse
-#### Introducing Earn Alliance.
-
+## Hello, Metaverse
+### Introducing Earn Alliance.
 
 
 Welcome to **Earn Alliance**. We are a team of web3 enthusiasts, engineers and gamers, and we build tools to empower gaming communities to **play, connect and thrive** in the metaverse.

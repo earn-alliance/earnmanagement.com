@@ -4,7 +4,6 @@ import Dropdown from '../components/DropDown';
 import ImageBox from '../components/ImageContainer';
 import Send from '../../static/img/SubmitArrow';
 import { useMutation } from 'react-query';
-// import TextInput from 'components/FormElements/TextInput';
 import Button from '@mui/material/Button';
 import { submitSubscribeForm } from '../../queries/subscribe';
 import { SubscribeFormSchema } from '../../validators';
@@ -47,12 +46,9 @@ const ContentSection = () => {
     resolver: yupResolver(SubscribeFormSchema),
   });
 
-
   const [modalIsOpen, setIsOpen] = useState(false);
   const [ErrormodalIsOpen, setErrorModalOpen] = useState(false);
   
-
-
   const openModal = () => {
     setIsOpen(true);
   }
@@ -102,6 +98,7 @@ const ContentSection = () => {
                   control={control}
                   type="text"
                   placeholder="Your Email Address"
+                  autoComplete='off'
                   {...register("email")}
                 />
                 <Dropdown
@@ -163,7 +160,6 @@ const ContentSection = () => {
          <Button className='success-button' onClick={closeErrorModal}>Ok</Button>
        </div>
       </Modal>
-
     </>
   );
 };
