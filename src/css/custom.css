@@ -107,7 +107,12 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .header-image {
-  width: 10rem;
+  width: 100%;
+  max-width: 90px;
+}
+
+.header-image-anchor{
+  padding-top: 10px;
 }
 
 .nav-links-anchor{
@@ -612,9 +617,9 @@ li {
 }
 
 @media screen and (max-width: 410px) {
-  .header-image {
+  /* .header-image {
     width: 3rem;
-}
+} */
   .css-1s2u09g-control{
     min-width: 100px;
   }

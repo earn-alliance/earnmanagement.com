@@ -1,19 +1,10 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-import {
-  HeadSection,
-  Navigations,
-  NavLink,
-  Contact,
-  ContactDiscord,
-  ContactTwitter,
-} from '../css/pageCss';
 import LogoImage from '../../static/img/EarnHome.png'
 import Discord from '../../static/img/DiscordIcon';
 import Twitter from '../../static/img/TwitterIcon';
 const Header = () => (
   <div className='header-container'>
-    <a href="/">
+    <a href="/" className='header-image-anchor'>
     <img
       src={LogoImage}
       layout="intrinsic"
