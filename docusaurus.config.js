@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Earn Management',
+  title: 'Earn Alliance',
   tagline: 'Guild of Guilds',
-  url: 'https://earnmanagement.com',
+  url: 'https://earnalliance.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'earn-alliance', // Usually your GitHub org/user name.
-  projectName: 'earnmanagement.com', // Usually your repo name.
+  projectName: 'earnalliance.com', // Usually your repo name.
 
   presets: [
     [
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Earn Management',
+        title: 'Earn Alliance',
         logo: {
-          alt: 'Earn Management Logo',
+          alt: 'Earn Alliance Logo',
           src: 'img/EarnHome.png',
         },
         items: [

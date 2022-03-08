@@ -19,19 +19,24 @@ const Header = () => (
       layout="intrinsic"
       className='header-image'
       alt="Earn Management"
+      width='70em'
     />
     </a>
     <div className='navigationDiv'>
       <div className='nav-links'><a href="/blog" className='nav-links-anchor'>Blog</a></div>
-      <div className='nav-links'><a href="https://roadmap.earnmanagement.com" className='nav-links-anchor'>Roadmap</a></div>
+      <div className='nav-links'><a href="https://roadmap.earnalliance.com" className='nav-links-anchor'>Roadmap</a></div>
       <div className='nav-links'><a href="/contact" className='nav-links-anchor'>Contact</a></div>
     </div>
     <div className='contact-div'>
       <div className='contact-discord'>
+        <a href='https://discord.com/invite/EmGzug9FKd' target='_blank'>
         <Discord className="icon" />
+        </a>
       </div>
       <div className='twitter-div'>
+      <a href='https://twitter.com/earnalliance' target='_blank'>
         <Twitter className="icon" />
+        </a>
       </div>
     </div>
   </div>
