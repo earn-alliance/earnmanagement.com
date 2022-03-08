@@ -85,12 +85,12 @@ const ContentSection = () => {
       <div className='content-container'>
         <div className='content-wrapper'>
           <div className='formWrapper-div'>
-            <div className='content-title'>Guild Hub of the Metaverse</div>
+            <div className='content-title'>Grow Your Guild</div>
             <div className='content-text'>
               The only advanced automation tool you need to run your Axie
               Infinity scholarship. Coming soon to a metaverse near you.
             </div>
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <form onSubmit={handleSubmit(onSubmit)}  className='home-page-form'>
               <div className='input-wrapper-div'>
                 <input
                   name="email"

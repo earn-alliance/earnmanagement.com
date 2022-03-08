@@ -88,6 +88,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   max-width: 1920px;
   margin: 0 auto;
   width: 100%;
+  gap: 12px;
 }
 
 .navigationDiv{
@@ -104,6 +105,16 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   color: #000000;
   cursor: pointer;
 }
+
+.header-image {
+  width: 100%;
+  max-width: 90px;
+}
+
+.header-image-anchor{
+  padding-top: 10px;
+}
+
 .nav-links-anchor{
   color: unset;
 }
@@ -177,7 +188,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .content-title{
   font-family: 'outfit500';
-  font-size: clamp(1rem, 6vw, 80px);
+  font-size: clamp(1rem, 4.7vw, 80px);
   line-height: clamp(1rem, 6vw, 88px);
   color: #262a50;
 }
@@ -284,11 +295,11 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   width: 100%;
   margin: 2px;
   height: 7px;
-  font-family: DM Sans;
   font-weight: 500;
   font-size: 10px;
   letter-spacing: -0.02em;
   color: #ff5b51;
+  font-family: 'outfit400';
   margin-bottom: 8px;
   position: absolute;
   bottom: -18px;
@@ -303,7 +314,8 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
-  color: #000000;
+  color: #9fa7b1;
+  font-style: italic;
   padding: 0 50px 20px;
 }
 
@@ -497,7 +509,7 @@ li {
   width: 100%;
   margin: 2px;
   height: 7px;
-  font-family: DM Sans;
+  font-family: 'outfit400'; 
   font-weight: 500;
   font-size: 10px;
   letter-spacing: -0.02em;
@@ -561,6 +573,9 @@ li {
 }
 
 @media screen and (max-width: 880px) {
+  .home-page-form{
+    text-align: -webkit-center;
+  }
   .foot-note{
       text-align: center;
   }
@@ -584,9 +599,6 @@ li {
   .header-container{
   padding: 30px 15px;
 }
- .header-image {
-    max-width: 50px;
-  }
   .navigationDiv{
       gap: 20px;
   }
@@ -605,7 +617,9 @@ li {
 }
 
 @media screen and (max-width: 410px) {
-
+  /* .header-image {
+    width: 3rem;
+} */
   .css-1s2u09g-control{
     min-width: 100px;
   }
