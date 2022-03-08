@@ -19,7 +19,6 @@ const Header = () => (
       layout="intrinsic"
       className='header-image'
       alt="Earn Management"
-      width='70em'
     />
     </a>
     <div className='navigationDiv'>
@@ -29,7 +28,7 @@ const Header = () => (
     </div>
     <div className='contact-div'>
       <div className='contact-discord'>
-        <a href='https://discord.com/invite/EmGzug9FKd' target='_blank'>
+        <a href='https://discord.gg/GD65eQuVGz' target='_blank'>
         <Discord className="icon" />
         </a>
       </div>
