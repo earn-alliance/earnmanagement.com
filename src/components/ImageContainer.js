@@ -7,10 +7,6 @@ const ImageBox = () => (
   <>
     <div className='image-wrapper'>
       <HomeCarouselWrapper />
-      {/* <DiscordLink>
-        <Discord className="discord_icon" />
-        Join Discord
-      </DiscordLink> */}
     </div>
   </>
 );
