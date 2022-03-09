@@ -666,14 +666,15 @@ li {
   gap: 30px;
   display: flex;
   padding-top: 30px;
+  align-items: center;
 }
 
-.header-container-mobile a {
+.header-container-mobile .nav-links-anchor {
   color: #fff;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;
+  display: flex;
 }
 
 .header-container-mobile .hamburger {
@@ -698,6 +699,14 @@ li {
 }
 
 @media screen and (max-width: 510px) {
+
+.header-image {
+  width: 100%;
+  max-width: 90px;
+  min-width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
   .contact-div {
     height: auto;
     top: 2.5em;
