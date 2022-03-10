@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
+    "start": "env-cmd -f .env.local docusaurus start",
+    "build": "env-cmd -f .env.local docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -24,6 +24,10 @@
     "@mui/material": "^5.4.3",
     "@reduxjs/toolkit": "^1.8.0",
     "clsx": "^1.1.1",
+    "docusaurus-plugin-dotenv": "^1.0.1",
+    "docusaurus2-dotenv": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "env-cmd": "^10.1.0",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -48,5 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-error-overlay": "^6.0.9"
   }
 }

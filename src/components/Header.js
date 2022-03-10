@@ -5,9 +5,14 @@ import Twitter from "../../static/img/TwitterIcon";
 import Button from "@mui/material/Button";
 import HamBurger from "../../static/img/hamburger";
 import CrossIconHamBurger from "../../static/img/CrossHamburger";
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 const Header = () => {
-  function myFunction() {
+  const {
+    siteConfig: {customFields},
+  } = useDocusaurusContext();
+
+  const myFunction = () => {
     var x = document.getElementById("myLinks");
     if (x.style.display === "flex") {
       x.style.display = "none";
@@ -16,6 +21,13 @@ const Header = () => {
       document.body.style.overflow = "hidden";
       x.style.display = "flex";
     }
+  }
+
+  const signUpFunction = () =>{
+    window.location.href = customFields.signupurl;
+  }
+  const loginFunction = () =>{
+    window.location.href = customFields.loginurl;
   }
 
   return (
@@ -50,10 +62,10 @@ const Header = () => {
           </div>
         </div>
         <div className="header-button-div">
-          <Button type="submit">
+          <Button type="submit" onClick={loginFunction}>
             <div className="login-button">Log In</div>
           </Button>
-          <Button type="submit">
+          <Button type="submit" onClick={signUpFunction}>
             <div className="signup-button">Sign Up</div>
           </Button>
         </div>
@@ -96,11 +108,11 @@ const Header = () => {
 
             <div className="header-button-div-mobile">
               <Button type="submit">
-                <div className="login-button-mobile">Log In</div>
+                <div className="login-button-mobile" onClick={loginFunction}>Log In</div>
               </Button>
             </div>
             <div>
-              <Button type="submit">
+              <Button type="submit" onClick={signUpFunction}>
                 <div className="signup-button-mobile">Sign Up</div>
               </Button>
             </div>
