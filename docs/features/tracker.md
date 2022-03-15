@@ -33,12 +33,12 @@ Directly enter your scholar’s payment ronin address, or if that’s not availa
 You can either:
 
 * Enter the scholar's email address
-* If they don’t already have an Earn Management account, [invite them via email](www.google.com) in the same field.
+* If they don’t already have an Earn Management account, [invite them via email](https://www.google.com) in the same field.
 
 
 --TODO: Image --
 
-Note that **to use our [Payments](www.google.com) feature**, your scholar’s payment ronin address must be entered.
+Note that **to use our [Payments](https://www.google.com) feature**, your scholar’s payment ronin address must be entered.
 
 5. Labels
 

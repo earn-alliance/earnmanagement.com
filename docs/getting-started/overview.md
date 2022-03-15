@@ -28,4 +28,4 @@ Come join us, ask questions and feel free to get involved. We're building this f
 * [Earn Alliance Community Discord](https://discord.gg/csZZEUUV9s)
 * [Earn Alliance Twitter](https://twitter.com/earnalliance)
 * [Feature Requests and Issues on our Roadmap](https://roadmap.earnalliance.com)
-* Email us at support -at- earnalliance.com
+* Email us at support -at- earnalliance (dot) com
