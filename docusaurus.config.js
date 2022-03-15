@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+require('dotenv').config();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -15,6 +16,11 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'earn-alliance', // Usually your GitHub org/user name.
   projectName: 'earnalliance.com', // Usually your repo name.
+  customFields: {
+    // Put your custom environment here
+    signupurl: process.env.SIGNUP_BASE_URL,
+    loginurl: process.env.LOGIN_BASE_URL,
+  },
 
   presets: [
     [
