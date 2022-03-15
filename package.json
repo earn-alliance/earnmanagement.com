@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "env-cmd -f .env.local docusaurus start",
-    "build": "env-cmd -f .env.local docusaurus build",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "start-dev": "env-cmd -f .env.local docusaurus start",
+    "build-dev": "env-cmd -f .env.local docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
