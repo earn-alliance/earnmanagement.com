@@ -41,6 +41,6 @@ After entering your scholar’s %, the manager’s % revenue share will be autom
 
 To use our Payments feature, you’ll fill in additional (and optional) fields, such as the 
 scholar’s payment ronin address – the detailed instructions for which you’ll find in the
-[Add Account](../features/tracker.md#optional-account-details) section below.
+[Add Account](../features/tracker.md#add-account) section below.
 
 So, ready to do some high-level tracking?

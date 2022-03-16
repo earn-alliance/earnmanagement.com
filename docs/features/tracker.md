@@ -18,9 +18,7 @@ That enables our system to **track the scholars’ performances** and their **wa
 
 After entering your scholar’s %, the manager’s % revenue share will be automatically updated to equal 100%.
 
-
-![add account2](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/02_Tracker_Add%20Account2.gif)
-
+![add account2](02_Tracker_Add_Account2.gif)
 
 **Account Optional field**
 
@@ -35,7 +33,7 @@ You can either:
 * Enter the scholar’s email address 
     * If they don’t already have an Earn Management account [invite them via email](user-management.md#invite-user-from-tracker) in the same field.
 
-![enter scholar email](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/01_Tracker_Use%20Scholar%20Email.gif)
+![enter scholar email](01_Tracker_Use_Scholar_Email.gif)
 
 
 Note that **to** **use our [Payments](payments.md) feature,** your scholar’s payment ronin address must be entered.
