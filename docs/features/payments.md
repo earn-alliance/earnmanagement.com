@@ -21,7 +21,7 @@ For example:
 * If the scholar was last paid today, there would be no payment to generate.
 * If the scholar was last paid on Nov 1, 2021, it will generate a payment for the scholar’s earnings between Nov 1, 2021 and today.
 
-![earn start end date](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/04_Payments_Enter%20Start%20End%20Date.gif)
+![earn start end date](04_Payments_Enter_Start_End_Date.gif)
 
 3. In **Payment Events**, you will see:
 
@@ -44,11 +44,11 @@ For example:
 
 7. **Expand each payment event** by clicking on the arrow on the left, which will show you something of an itemized invoice. You will see who and how much each person gets paid, usually the scholar, manager and trainer, if any.
 
-![expand payment details](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/04_Payments_Expand%20Detail.gif)
+![expand payment details](04_Payments_Expand_Detail.gif)
 
 8. Before starting payments, if you wish to **modify any payment**, click “Add More,” where you can edit by adding or subtracting SLP. This is useful for any bonuses, deductions, previous errors in payment, and more. After making any modification, click “Regenerate” to refresh the page. This should take a few seconds.
 
-![modify payment detail](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/04_Payments_Add%20SLP.gif)
+![modify payment detail](04_Payments_Add_SLP.gif)
 
 9. To **pay your scholars**, click “Start Payments.”
 
