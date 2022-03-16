@@ -17,7 +17,7 @@ Select [Feature Requests](https://roadmap.earnmanagement.com/feature-requests) t
 * Comment on any feature request
 * View and sort which ones are under review, planned, in progress or complete
 
-Select [Issues](https://roadmap.earnmanagement.com/issues)to:
+Select [Issues](https://roadmap.earnmanagement.com/issues) to:
 
 * Create a post and report a bug/an issue
 * View issues that have been reported

@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-## Wallets
+# Wallets
 
 Wallets give you an overview of **all your assets** (in ETH, SLP, AXS and Axies) across all wallets associated with your scholarship.
 

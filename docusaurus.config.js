@@ -48,6 +48,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      autoCollapseSidebarCategories: false,
       navbar: {
         title: 'Earn Alliance',
         logo: {
