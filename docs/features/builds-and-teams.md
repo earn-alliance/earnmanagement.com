@@ -14,7 +14,7 @@ To **create a build**, click into “Create Build” on the top right.
 3. _Optionally_ choose as many genes for each Axie body part
 
 
-![create build](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/07_Builds%20Teams_Create%20Builds.gif)
+![create build](07_BuildsTeams_CreateBuilds.gif)
 
 
 To **create a general Axie build template** of a class (i.e. beast) with no specific parts in mind, simply choose the Axie Type and leave all parts blank.
@@ -34,11 +34,11 @@ Now that you’ve created your builds, it’s time to **create your first team t
 
 If you know which team combinations work, go ahead and enter a name for your team preset, and select 3 Axie builds for the team.  
 
-![create team](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/07_Builds%20Teams_Create%20Teams.gif)
+![create team](07_BuildsTeams_CreateTeams.gif)
 
 When you’re done building your desired teams, they’ll all appear under “Teams.” Again, like the Builds, you can edit, delete, or drag to rank.
 
-![edit drag teams](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/07_Builds%20Teams_Edit%20Drag%20Teams.gif)
+![edit drag teams](07_BuildsTeams_EditDragTeams.gif)
 
 
 ## Team Templates
@@ -47,7 +47,7 @@ The next step is to match all of your Axies into teams according to your Team pr
 
 Below, you’ll see this scholarship has automatically distributed their Axies into 538 teams, according to their meta – beast, aqua and plant. In one click, 1,614 beast, aqua and plant Axies were sent to 538 ronin wallets– a task that would’ve otherwise taken hours.
 
-![match teams](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/08_Team%20Matching_Cabala.png)
+![match teams](08_TeamMatching_Cabala.png)
 
 Any remaining **Axies that don’t fit the Team template** will be unmatched, the total of which you’ll see under “Unmatched Axies.”
 
@@ -55,6 +55,6 @@ To **send teams to empty wallets**, click “Distribute Teams,” which will aut
 
 If you see a number of Axies in “Matched Axies With No Available Wallets,” it means these **teams have been matched, but there are no empty wallets** for them to go into. To add an empty wallet, head to Wallet and add an empty one.
 
-![add wallets](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/05_Wallets_Add%20Wallet.gif)
+![add wallets](05_Wallets_Add_Wallet.gif)
 
 Like payments, select [Wallet Commander](wallet-commander.md) from the Settings menu to watch the **team distribution updated on the blockchain in real time**. Et voilà!  
