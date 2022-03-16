@@ -25,7 +25,7 @@ Select [Issues](https://roadmap.earnmanagement.com/issues) to:
 
 * View and sort which ones are under review, planned, in progress or complete
 
-Lastly, **we’d love for you to be a part of our [Earn Alliance](earnalliance.com) community**. Join us on [Discord](https://discord.com/channels/926167446648397836/949220163331432508), where we’ll be announcing product updates and releases, talking about all things P2E gaming, Axie Infinity, scholarship management, and more.
+Lastly, **we’d love for you to be a part of our [Earn Alliance](https://earnalliance.com) community**. Join us on [Discord](https://discord.com/channels/926167446648397836/949220163331432508), where we’ll be announcing product updates and releases, talking about all things P2E gaming, Axie Infinity, scholarship management, and more.
 
 Find us on [Twitter](https://twitter.com/EarnAlliance), [Facebook](https://www.facebook.com/earnalliance/), [Telegram](https://t.me/earnalliance), and read our [Blog](https://earnalliance.com/blog/) here. 
 

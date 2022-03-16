@@ -48,7 +48,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      autoCollapseSidebarCategories: false,
       navbar: {
         title: 'Earn Alliance',
         logo: {
@@ -58,7 +57,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'getting-started/overview',
+            docId: 'introduction/overview',
             position: 'left',
             label: 'Docs',
           },
@@ -85,7 +84,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/getting-started/overview',
+                to: '/docs/introduction/overview',
               },
               {
                 label: 'Blog',

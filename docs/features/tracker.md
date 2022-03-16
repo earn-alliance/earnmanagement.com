@@ -90,7 +90,7 @@ With each account added, you’ll be able to **access the following data**:
 
 The sort function allows you to easily** identify your highest and lowest performing accounts**, and whether scholars in the latter category may need training.
 
-Utilizing this data will help you make decisions in building <span style="text-decoration:underline;">an even more successful scholarship</span>.
+Utilizing this data will help you make decisions in building an even more successful scholarship.
 
 **Search for accounts** easily by using the label filter or account name.
 

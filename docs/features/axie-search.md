@@ -42,7 +42,7 @@ Using our advanced search, **filter your Axies** by:
 2. Lifestage
 3. Breed count
 
-Adjust the toggle <span style="text-decoration:underline;">on both ends</span> to select any range between 0 – 7 breed counts.
+Adjust the toggle on both ends to select any range between 0 – 7 breed counts.
 
 4. Parts
 
@@ -50,7 +50,7 @@ In the search field, enter the part you wish to search for. To select, click the
 
 * To filter for dominant genes, leave R1 and R2 checkboxes blank.
 * To filter for R1 _or_ R2 genes, select the respective checkboxes under each part.
-* Selecting both R1 _and_ R2 genes for each part will filter for Axies with <span style="text-decoration:underline;">both R1 and R2 genes.</span>
+* Selecting both R1 _and_ R2 genes for each part will filter for Axies with both R1 and R2 genes.
 * To select multiple parts, enter in the search field and click into the part. Select as many parts as you’d like.
 
 **Note that every search of multiple parts is a function of “and,” not “or.” **For example, if you’re searching for two parts (i.e. Ronin and Imp), the Axies that appear share both Ronin _and_ Imp parts.
