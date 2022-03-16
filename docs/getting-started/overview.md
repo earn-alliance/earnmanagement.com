@@ -19,7 +19,7 @@ Earn Management is our first contribution to the play-and-earn community.
 
 Having identified and experienced the challenges of scaling a scholarship ourselves, we created this platform to be a one-stop-shop for all the tools you need to not only run – but easily scale – your Axie Infinity scholarship.
 
---TODO IMAGE--
+![all features](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/00_All%20Features.gif)
 
 ## Welcome to our community!
 
