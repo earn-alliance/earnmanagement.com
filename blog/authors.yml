@@ -2,10 +2,10 @@ earn-alliance:
   name: Earn Alliance
   title: Site Admin
   url: https://github.com/earn-alliance
-  image_url: https://github.com/endiliey.png #TODO
+  image_url: img/diamond.png
 
 joseph-cooper:
-  name: Jospeh "Coop" Cooper
+  name: Joseph "Coop" Cooper
   title: Advisor
   url: https://github.com/disturbing
   image_url: https://github.com/yangshun.png #TODO

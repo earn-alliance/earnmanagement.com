@@ -48,6 +48,11 @@ const Header = () => {
             </a>
           </div>
           <div className="nav-links">
+            <a href="/docs/introduction/overview" className="nav-links-anchor">
+              Docs
+            </a>
+          </div>
+          <div className="nav-links">
             <a
               href="https://roadmap.earnalliance.com"
               className="nav-links-anchor"
