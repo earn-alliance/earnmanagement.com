@@ -13,17 +13,17 @@ Here’s how to get started:
 
 2. Sign up or log in using a valid email address. No additional installation is necessary.
 
-![log in](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/01_Getting%20Started_Log%20In.gif)
+![log in](01_Getting_Started_Log_In.gif)
 
 3. Enter your account name and ronin wallet address.
 
-![add ronin account](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/01_Getting%20Started%20_Add%20Ronin%20Account.gif) 
+![add ronin account](01_Getting_Started_Add_Ronin_Account.gif)
 
 4. That’s it! Your Earn Management scholarship automation account is all set up.
 
 5. You’ll arrive at the Tracker page, where you can choose to add an account.
 
-![add account](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/02_Tracker_Add%20Account1.gif) 
+![add account](02_Tracker_Add_Account1.gif) 
 
 6. **Add each scholar’s account** by filling in the following information:
 
@@ -33,7 +33,7 @@ Here’s how to get started:
 
 After entering your scholar’s %, the manager’s % revenue share will be automatically updated to equal 100%.
 
-![add account2](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/02_Tracker_Add%20Account2.gif)
+![add account2](02_Tracker_Add_Account2.gif)
 
 7. Once you’re done, click “Add Account” at the bottom to save.
 
