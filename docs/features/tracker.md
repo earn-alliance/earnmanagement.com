@@ -49,7 +49,7 @@ Enter as many tags as you wish to help you quickly filter and organize your scho
 * TEAM-BLUE
 * NINJA-SQUAD
 
-![add labels](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/01_Tracker_Labels.gif)
+![add labels](01_Tracker_Labels.gif)
 
 6. Trainer’s ronin address
 
@@ -58,7 +58,7 @@ This can be a mentor or investor that gets a revenue share off this scholar.
 
 Again, if the payment address is not available, adjust the toggle to enter the trainer’s email address instead.
 
-![use trainer email](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/01_Tracker_Use%20Trainer%20Email.gif)
+![use trainer email](01_Tracker_Use_Trainer_Email.gif)
 
 7. Trainer’s % revenue share
 
