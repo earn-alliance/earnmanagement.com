@@ -23,7 +23,7 @@ When adding or editing an account, click on "scholar’s payment ronin address" 
 
 **Adjust the toggle** on the right to enter their email address instead. If they do not have an account, an invitation will be sent to their email address.
 
-![use scholar email](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/01_Tracker_Use%20Scholar%20Email.gif)
+![use scholar email](01_Tracker_Use_Scholar_Email.gif)
 
 ### Invite user from user management
 
@@ -32,7 +32,7 @@ Earn Management has a portal for managing users.
 1. Go to the settings icon _(top right_)
 2. Select “Manage and Invite Users” from the Settings icon.
 
-![invite user](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/06_Invite%20User_Select%20from%20Settings.gif)
+![invite user](06_InviteUser_Select_from_Settings.gif)
 
 Select “Invite User.”
 
@@ -47,7 +47,7 @@ Select “Invite User.”
 * Permission type: Scholar
 * Assigned scholar account (_this must be an account that’s already been added to your [Tracker](tracker.md)_)
   
-![invite scholar](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/06_Invite%20User_Scholar.gif)
+![invite scholar](06_InviteUser_Scholar.gif)
 
 **All invited users will be sent an invitation link** via email, and be able to sign up for an account on Earn Management.
 
