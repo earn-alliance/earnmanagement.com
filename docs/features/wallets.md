@@ -15,7 +15,7 @@ Scroll down and you’ll be able to see and sort by how much ETH, SLP, AXS and A
 * Ronin address
 
 
-![add wallet](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/05_Wallets_Add%20Wallet.gif)
+![add wallet](05_Wallets_Add_Wallet.gif)
 
 
 The first wallet with the coin icon next to it is your **designated treasury wallet** – the wallet that receives the "Manager" share when [payments](payments.md) are processed. Set any wallet as the treasury from the action menu on the right.
