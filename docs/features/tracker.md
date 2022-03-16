@@ -19,7 +19,7 @@ That enables our system to **track the scholars’ performances** and their **wa
 After entering your scholar’s %, the manager’s % revenue share will be automatically updated to equal 100%.
 
 
-![alt_text](images/image6.gif "image_tooltip")
+![add account2](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/02_Tracker_Add%20Account2.gif)
 
 
 **Account Optional field**
@@ -35,12 +35,10 @@ You can either:
 * Enter the scholar’s email address 
     * If they don’t already have an Earn Management account [invite them via email](user-management.md#invite-user-from-tracker) in the same field.
 
-![alt_text](images/image7.gif "image_tooltip")
+![enter scholar email](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/01_Tracker_Use%20Scholar%20Email.gif)
 
 
-Note that **to** **use our
-
-[Payments](payments.md) feature,** your scholar’s payment ronin address must be entered.
+Note that **to** **use our [Payments](payments.md) feature,** your scholar’s payment ronin address must be entered.
 
 
 5. Label(s)
@@ -53,7 +51,7 @@ Enter as many tags as you wish to help you quickly filter and organize your scho
 * TEAM-BLUE
 * NINJA-SQUAD
 
-![alt_text](images/image8.gif "image_tooltip")
+![add labels](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/01_Tracker_Labels.gif)
 
 6. Trainer’s ronin address
 
@@ -62,7 +60,7 @@ This can be a mentor or investor that gets a revenue share off this scholar.
 
 Again, if the payment address is not available, adjust the toggle to enter the trainer’s email address instead.
 
-![alt_text](images/image9.gif "image_tooltip")
+![use trainer email](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/01_Tracker_Use%20Trainer%20Email.gif)
 
 7. Trainer’s % revenue share
 
