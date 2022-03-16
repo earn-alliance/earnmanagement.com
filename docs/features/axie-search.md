@@ -9,7 +9,7 @@ Traditionally, in the Axie marketplace, players can only see Axies in the one ac
 Our Axie dashboard gives you **a master overview of the Axies you own** across _all _your tracked ronin wallets.
 
 
-![alt_text](images/image10.gif "image_tooltip")
+![all axies scroll](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/03_Axies_All%20Axies%20Scroll.gif)
 
 
 This is helpful because:
@@ -24,7 +24,7 @@ For example, we are looking to breed Axies with:
 
 The filter immediately gives us a masterview of all of our Axies that fit the bill, so to speak.
 
-![alt_text](images/image11.gif "image_tooltip")
+![rimp filter](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/03_Axies_RIMP%20filter.gif)
 
 
 Using our advanced search, **filter your Axies** by:
@@ -55,13 +55,13 @@ In the search field, enter the part you wish to search for. To select, click the
 
 **Note that every search of multiple parts is a function of “and,” not “or.” **For example, if you’re searching for two parts (i.e. Ronin and Imp), the Axies that appear share both Ronin _and_ Imp parts.
 
-![alt_text](images/image12.gif "image_tooltip")
+![axie parts](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/03_Axies_Parts.gif)
 
 5. Stats
 
 Adjust the toggle on both ends to select any range for Health, Speed, Skill and Morale.
 
-![alt_text](images/image13.gif "image_tooltip")
+![axie stats](https://github.com/earn-alliance/earnalliance.com/blob/feat/docs/03_Axies_Stats.gif)
 
 
 After filtering your Axies, you’ll be able to see them by selecting the **gallery or list view**.
