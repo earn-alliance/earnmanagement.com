@@ -30,13 +30,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/earn-alliance/earnalliance.com/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/earn-alliance/earnalliance.com/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,18 +62,18 @@ const config = {
             label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://app.earnmanagement.com',
-          //   label: 'Login',
-          //   position: 'right',
-          //   className: 'header-login-link'
-          // },
-          // {
-          //   href: 'https://app.earnmanagement/signup',
-          //   label: 'Register',
-          //   position: 'right',
-          //   className: 'header-register-link'
-          // },
+          {
+            href: 'https://app.earnalliance.com',
+            label: 'Login',
+            position: 'right',
+            className: 'header-login-link'
+          },
+          {
+            href: 'https://app.earnalliance.com/signup',
+            label: 'Register',
+            position: 'right',
+            className: 'header-register-link'
+          },
         ],
       },
       footer: {
@@ -126,7 +126,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/earn-alliance/',
               },
             ],
           },
