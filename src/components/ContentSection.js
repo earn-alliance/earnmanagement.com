@@ -87,42 +87,10 @@ const ContentSection = () => {
           <div className="formWrapper-div">
             <div className="content-title">Grow Your Guild</div>
             <div className="content-text">
-              The only advanced automation tool you need to run your Axie
-              Infinity scholarship. Coming soon to a metaverse near you.
+              Introducing the world’s first keyless blockchain-game scholarship tracker and automation platform, starting with Axie Infinity. 100% free for all. Try it today.
+              <br/><br/>
+              We empower play-and-earn gaming communities to play, connect and thrive in the metaverse. Join our community on Discord to stay updated with tool and feature releases, and don't miss the Earn Community Token ($ECT) launch, coming soon!
             </div>
-            <form onSubmit={handleSubmit(onSubmit)} className="home-page-form">
-              <div className="input-wrapper-div">
-                <input
-                  name="email"
-                  className="email_address"
-                  control={control}
-                  type="text"
-                  placeholder="Your Email Address"
-                  autoComplete="off"
-                  {...register("email")}
-                />
-                <Dropdown
-                  name="user_type"
-                  className="home_select"
-                  data={[
-                    { value: "Scholarship Owner", label: "Scholarship Owner" },
-                    { value: "Scholar", label: "Scholar" },
-                    { value: "Investor", label: "Investor" },
-                    { value: "Other", label: "Other" },
-                  ]}
-                  control={control}
-                  placeholder="Type"
-                />
-                <Button type="submit">
-                  <div className="submit-button">
-                    <Send className="icon" />
-                  </div>
-                </Button>
-              </div>
-              <p className="error-message-home">
-                {errors.email && <p>{errors.email.message}</p>}
-              </p>
-            </form>
           </div>
         </div>
         <ImageBox />

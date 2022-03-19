@@ -13,11 +13,11 @@ We designed our tools for people like ourselves: builders and players who've stu
 
 Our mission is to make this vast, exciting space a better, more accessible place for everyone to navigate, whether you're here to play and connect with like-minded friends, or to grow your guild using our tools.
 
-This journey begins with the introduction of **our first tool: Earn Management**.
+This journey begins with the introduction of **our first tool: [Earn Management](https://app.earnalliance.com)**.
 
 #### Earn Management is a seamless platform of advanced automation tools we created to help you **run** and **scale** your Axie Infinity scholarship with ease.
 
-From understanding scholar performance and automating complex payments to creating metas and distributing teams– all for **free** and **readily accessible** on a single platform– we're here for you. Check out our roadmap to learn more about where we're heading.
+From understanding scholar performance and automating complex payments to creating metas and distributing teams– all for **free** and **readily accessible** on a single platform– we're here for you. Check out our [roadmap](https://roadmap.earnalliance.com) to learn more about where we're heading.
 
 We've just arrived at the new frontier. This is only the very beginning.
 
