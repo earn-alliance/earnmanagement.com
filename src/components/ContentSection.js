@@ -91,6 +91,11 @@ const ContentSection = () => {
               <br/><br/>
               We empower play-and-earn gaming communities to play, connect and thrive in the metaverse. Join our community on Discord to stay updated with tool and feature releases, and don't miss the Earn Community Token ($ECT) launch, coming soon!
             </div>
+            <div className="button-section">
+          <Button className="discordButton">Join Us on Discord</Button>
+          <Button className="betabutton">Sign Up for Beta</Button>
+
+            </div>
           </div>
         </div>
         <ImageBox />

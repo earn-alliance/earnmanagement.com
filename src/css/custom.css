@@ -780,3 +780,53 @@ li {
     min-width: 100px;
   }
 }
+
+.button-section{
+  font-family: "spartan_mbsemibold";
+display: flex;
+justify-content: flex-start;
+gap:16px;
+margin-top: 20px;
+
+}
+@media screen and (max-width: 1050px) {
+  .button-section{
+    justify-content: center;
+  }
+}
+.betabutton{
+  font-family: "spartan_mbsemibold" !important;
+    text-transform: capitalize !important;
+    font-weight: 700 ;
+    width: 100% ;
+    max-width: 210px  !important;
+    height: 60px ;
+    border-radius: 10px !important;
+    color: #FFFFFF !important;
+    background: linear-gradient(268.57deg, #258ADC -0.19%, #4BB0DC 98.05%) !important;
+    box-shadow: none;
+    
+   }
+   @media screen and (max-width: 1050px) {
+    .betabutton{
+     height: 50px;
+    }
+   }
+.discordButton{
+  font-family: "spartan_mbsemibold" !important;
+   text-transform: capitalize !important;
+  font-weight: 700 ;
+  width: 100%;
+  max-width: 210px  !important;
+  height: 60px;
+  border-radius: 10px !important;
+  color: #FFFFFF !important;
+  background: #7664E3 !important;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 1050px) {
+ .discordButton{
+  height: 50px;
+ }
+}
