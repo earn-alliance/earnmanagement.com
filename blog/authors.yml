@@ -8,10 +8,9 @@ joseph-cooper:
   name: Joseph "Coop" Cooper
   title: Advisor
   url: https://github.com/disturbing
-  image_url: profile_coop.jpeg
+  image_url: /img/profile_coop.jpeg
 
 tiffany-chan:
   name: Tiffany Chan
-  title: Head of Content
-  url: https://sebastienlorber.com #TODO
-  image_url: https://github.com/slorber.png #TODO
+  title: Content & Community
+  image_url: /img/Profile_Tiff.png
