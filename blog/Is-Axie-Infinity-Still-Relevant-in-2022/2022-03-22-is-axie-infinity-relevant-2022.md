@@ -1,7 +1,7 @@
 ---
 slug: is-axie-infinity-relevant-2022
 title: Is Axie Infinity Still Relevant in 2022? 
-authors: [joseph-cooper]
+authors: [tiffany-chan]
 tags: ["Earn Alliance", "Axie Infinity", "Play To Earn", "Crypto Games", "NFT Games", "SLP"]
 ---
 
