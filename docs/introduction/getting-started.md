@@ -8,7 +8,7 @@ sidebar_position: 2
 
 Here’s how to get started:
 
-1. Head to our registration page.
+1. Head to our [registration page](https://app.earnalliance.com/).
 
 2. Sign up or log in using a valid email address. No additional installation is necessary.
 
