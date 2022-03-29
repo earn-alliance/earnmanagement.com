@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # User Management
@@ -15,7 +15,7 @@ sidebar_position: 5
 ## Invite User
 There are two ways to invite users depending on what you are doing.
 
-### Invite user from tracker
+### Invite User From Tracker
 
 Using the [Tracker](tracker.md), you may invite a user while adding/editing an account.
 
@@ -25,7 +25,7 @@ When adding or editing an account, click on "scholar’s payment ronin address" 
 
 ![use scholar email](01_Tracker_Use_Scholar_Email.gif)
 
-### Invite user from user management
+### Invite User From User Management
 
 Earn Management has a portal for managing users.
 

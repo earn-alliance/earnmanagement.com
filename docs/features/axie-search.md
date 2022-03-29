@@ -1,12 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Axie Search
 
 Traditionally, in the Axie marketplace, players can only see Axies in the one account they’re playing with.
 
-Our Axie dashboard gives you **a master overview of the Axies you own** across _all _your tracked ronin wallets.
+Our Axie dashboard gives you **a master overview of the Axies you own** across _all_ your tracked ronin wallets.
 
 
 ![all axies scroll](03_Axies_All_Axies_Scroll.gif)
@@ -39,7 +39,9 @@ Using our advanced search, **filter your Axies** by:
     * Mech
     * Plant
     * Reptile
+
 2. Lifestage
+
 3. Breed count
 
 Adjust the toggle on both ends to select any range between 0 – 7 breed counts.
