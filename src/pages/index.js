@@ -19,7 +19,7 @@ const Home = () => (
         </div>
         <div className="contact-div">
           <div className="contact-discord">
-            <a href="https://discord.gg/GD65eQuVGz" target="_blank">
+            <a href="https://discord.gg/rCPG8A7mSe" target="_blank">
               <Discord className="icon" />
             </a>
           </div>

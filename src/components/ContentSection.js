@@ -79,6 +79,13 @@ const ContentSection = () => {
     mutate(newKeys);
   };
 
+  const signUpFunction = () => {
+    window.location.href = "https://app.earnalliance.com";
+  };
+  const discordFunction = () => {
+    window.location.href = "https://discord.gg/rCPG8A7mSe";
+  };
+
   return (
     <>
       {isLoading && <Loader />}
@@ -87,14 +94,23 @@ const ContentSection = () => {
           <div className="formWrapper-div">
             <div className="content-title">Grow Your Guild</div>
             <div className="content-text">
-              Introducing the world’s first keyless blockchain-game scholarship tracker and automation platform, starting with Axie Infinity. 100% free for all. Try it today.
-              <br/><br/>
-              We empower play-and-earn gaming communities to play, connect and thrive in the metaverse. Join our community on Discord to stay updated with tool and feature releases, and don't miss the Earn Community Token ($ECT) launch, coming soon!
+              Introducing the world’s first keyless blockchain-game scholarship
+              tracker and automation platform, starting with Axie Infinity. 100%
+              free for all. Try it today.
+              <br />
+              <br />
+              We empower play-and-earn gaming communities to play, connect and
+              thrive in the metaverse. Join our community on Discord to stay
+              updated with tool and feature releases, and don't miss the Earn
+              Community Token ($ECT) launch, coming soon!
             </div>
             <div className="button-section">
-          <Button className="discordButton">Join Us on Discord</Button>
-          <Button className="betabutton">Sign Up for Beta</Button>
-
+              <Button className="discordButton" onClick={discordFunction}>
+                Join Us on Discord
+              </Button>
+              <Button className="betabutton" onClick={signUpFunction}>
+                Sign Up for Beta
+              </Button>
             </div>
           </div>
         </div>
