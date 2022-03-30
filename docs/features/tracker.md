@@ -10,7 +10,7 @@ That enables our system to **track the scholars’ performances** and their **wa
 
 ### Add Account
 
-**Add each scholar’s account** by filling in the following information:
+[Bulk import accounts](tracker.md#bulk-import) or manually **add each scholar’s account** by filling in the following information:
 
 1. Account name _(i.e. scholar-01)_
 2. Ronin address _(this is the account your scholar plays on)_
@@ -69,6 +69,41 @@ The manager, scholar and trainer’s % revenue share will automatically add up t
 Enter the last date the scholar was paid. By leaving it blank, it will default to today’s date.
 
 **You’re now tracking your first scholar’s ronin wallet!**
+
+
+### Bulk Import
+
+Rather than add accounts one-by-one manually, you can choose to **bulk import all scholars' accounts** by uploading a `.json` file.
+
+The `.json` file format is the same as that of [Axie Management](https://axie.management). You may export your data and directly import it into Earn Alliance.
+
+**The format is the following:**
+
+`{TODO: Get format}`
+
+
+**Using an Excel file?**
+
+Here's a [demo template](TODO xxx). 
+Convert to `.json` with [this converter](https://products.aspose.app/cells/conversion/excel-to-json)
+
+
+#### How to import
+
+1. Select "Bulk Import" by clicking above the "Add Account" button
+
+![bulk import](TODO xxx)
+
+2. Select your `.json` file and click upload
+
+![upload bulk import json](TODO xxx)
+
+3. View your newly imported accounts!
+
+![bulk upload error](TODO xxx)
+
+_Note: Accounts cannot be duplicated on the tracker. If you attempt to import a file with duplicate accounts, an error message will occur._
+
 
 ### Tracked Data
 
