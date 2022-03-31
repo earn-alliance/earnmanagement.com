@@ -85,25 +85,24 @@ The `.json` file format is the same as that of [Axie Management](https://axie.ma
 **Using an Excel file?**
 
 Here's a [demo template](TODO xxx). 
-Convert to `.json` with [this converter](https://products.aspose.app/cells/conversion/excel-to-json)
+Convert to `.json` with [this converter](https://products.aspose.app/cells/conversion/excel-to-json).
 
 
 #### How to import
 
-1. Select "Bulk Import" by clicking above the "Add Account" button
+Select "Bulk Import" by clicking above the "Add Account" button
 
-![bulk import](TODO xxx)
+![bulk import](02_Tracker_BulkImport.gif)
 
-2. Select your `.json` file and click upload
+Select your `.json` file and click upload
 
-![upload bulk import json](TODO xxx)
+![upload bulk import json](02_Tracker_BulkImport1.gif)
 
-3. View your newly imported accounts!
-
-![bulk upload error](TODO xxx)
+View your newly imported accounts!
 
 _Note: Accounts cannot be duplicated on the tracker. If you attempt to import a file with duplicate accounts, an error message will occur._
 
+![bulk upload error](02_Tracker_BulkImport2.gif)
 
 ### Tracked Data
 
@@ -115,9 +114,7 @@ With each account added, you’ll be able to **access the following data**:
 * Trainer SLP _(total for last 30 days)_
 * Total SLP _(total manager + scholar + trainer SLP for last 30 days)_
 * Total Scholars Tracked
-
 * MMR 
-
 * Gross Revenue _(today, yesterday, this month)_
 
 
