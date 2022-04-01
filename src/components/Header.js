@@ -5,11 +5,11 @@ import Twitter from "../../static/img/TwitterIcon";
 import Button from "@mui/material/Button";
 import HamBurger from "../../static/img/hamburger";
 import CrossIconHamBurger from "../../static/img/CrossHamburger";
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 const Header = () => {
   const {
-    siteConfig: {customFields},
+    siteConfig: { customFields },
   } = useDocusaurusContext();
 
   const myFunction = () => {
@@ -21,14 +21,14 @@ const Header = () => {
       document.body.style.overflow = "hidden";
       x.style.display = "flex";
     }
-  }
+  };
 
-  const signUpFunction = () =>{
+  const signUpFunction = () => {
     window.location.href = customFields.signupurl;
-  }
-  const loginFunction = () =>{
+  };
+  const loginFunction = () => {
     window.location.href = customFields.loginurl;
-  }
+  };
 
   return (
     <>
@@ -99,6 +99,14 @@ const Header = () => {
             </div>
             <div className="nav-links">
               <a
+                href="/docs/introduction/overview"
+                className="nav-links-anchor"
+              >
+                Docs
+              </a>
+            </div>
+            <div className="nav-links">
+              <a
                 href="https://roadmap.earnalliance.com"
                 className="nav-links-anchor"
               >
@@ -113,7 +121,9 @@ const Header = () => {
 
             <div className="header-button-div-mobile">
               <Button type="submit">
-                <div className="login-button-mobile" onClick={loginFunction}>Log In</div>
+                <div className="login-button-mobile" onClick={loginFunction}>
+                  Log In
+                </div>
               </Button>
             </div>
             <div>
