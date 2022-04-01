@@ -51,4 +51,7 @@ Select “Invite User.”
 
 **All invited users will be sent an invitation link** via email, and be able to sign up for an account on Earn Management.
 
-Scholars will be probed to enter their payment ronin address. 
+Scholars will be need to enter their payment ronin address to sign up. Note that if their payment address is already in the system, they **will not** be able to sign up due to duplicate ronin addresses.
+
+_Note: An email address already registered with Earn Alliance will not be able to join another guild, even with an invitation link. In this case, an error message will appear._   
+

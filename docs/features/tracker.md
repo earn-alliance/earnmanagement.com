@@ -10,7 +10,7 @@ That enables our system to **track the scholars’ performances** and their **wa
 
 ### Add Account
 
-**Add each scholar’s account** by filling in the following information:
+[Bulk import accounts](tracker.md#bulk-import) or manually **add each scholar’s account** by filling in the following information:
 
 1. Account name _(i.e. scholar-01)_
 2. Ronin address _(this is the account your scholar plays on)_
@@ -70,6 +70,40 @@ Enter the last date the scholar was paid. By leaving it blank, it will default t
 
 **You’re now tracking your first scholar’s ronin wallet!**
 
+
+### Bulk Import
+
+Rather than add accounts one-by-one manually, you can choose to **bulk import all scholars' accounts** by uploading a `.json` file.
+
+The `.json` file format is the same as that of [Axie Management](https://axie.management). You may export your data and directly import it into Earn Alliance.
+
+**The format is the following:**
+
+`  {
+        "managerShare": 50,
+        "eth": "ronin:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "name": "name-of-the-account",
+        "scholarPayoutAddress": "ronin:yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+        "investorPercentage": 0,
+        "investorRonin": ""
+    }`
+
+#### How to import
+
+Select "Bulk Import" by clicking above the "Add Account" button
+
+![bulk import](02_Tracker_BulkImport.gif)
+
+Select your `.json` file and click upload
+
+![upload bulk import json](02_Tracker_BulkImport1.gif)
+
+View your newly imported accounts!
+
+_Note: Accounts cannot be duplicated on the tracker. If you attempt to import a file with duplicate accounts, an error message will occur._
+
+![bulk upload error](02_Tracker_BulkImport2.gif)
+
 ### Tracked Data
 
 With each account added, you’ll be able to **access the following data**:
@@ -80,9 +114,7 @@ With each account added, you’ll be able to **access the following data**:
 * Trainer SLP _(total for last 30 days)_
 * Total SLP _(total manager + scholar + trainer SLP for last 30 days)_
 * Total Scholars Tracked
-
 * MMR 
-
 * Gross Revenue _(today, yesterday, this month)_
 
 
