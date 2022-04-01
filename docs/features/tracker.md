@@ -79,14 +79,14 @@ The `.json` file format is the same as that of [Axie Management](https://axie.ma
 
 **The format is the following:**
 
-`{TODO: Get format}`
-
-
-**Using an Excel file?**
-
-Here's a [demo template](TODO xxx). 
-Convert to `.json` with [this converter](https://products.aspose.app/cells/conversion/excel-to-json).
-
+`  {
+        "managerShare": 50,
+        "eth": "ronin:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "name": "name-of-the-account",
+        "scholarPayoutAddress": "ronin:yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+        "investorPercentage": 0,
+        "investorRonin": ""
+    }`
 
 #### How to import
 
