@@ -77,7 +77,32 @@ Rather than add accounts one-by-one manually, you can choose to **bulk import al
 
 1. If you currently use [Axie Management](https://axie.management), you may export your data in a `.json` file and directly import it into Earn Alliance.
 
-2. If you don’t currently use Axie Management, upload a `.json` file in [this format](https://app.earnalliance.com/files/sample_em_json_format.json). 
+You can also find the following format here: 
+
+```
+    {
+        "managerShare": 50,
+        "eth": "ronin:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "name": "name-of-the-account",
+        "scholarPayoutAddress": "ronin:yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+        "investorPercentage": 0,
+        "investorRonin": ""
+    }
+```
+
+2. If you don’t currently use Axie Management, upload a `.json` file with the following format:
+
+```
+    {
+        "alias": "ea-account-01",
+        "ronin_wallet": "ronin:ab673081b96b53ed7de9f87c5256212c2dbc016e",
+        "scholar_share": 55,
+        "scholar_payment_ronin_wallet": "ronin:9989c845f4bf7930707734cb257ccc6b66e94220",
+        "trainer_share": 2,
+        "trainer_payment_ronin_wallet": "ronin:9989c845f4bf7930707734cb257ccc6b66e94220",
+        "last_pay_date": "2022-02-15"
+    }
+``` 
 
 3. Using Excel? Here's a [demo template](https://docs.google.com/spreadsheets/d/1RqtQKuyx5ZjDDd0tOR6gDnNrzkn7NlYU/edit?usp=sharing&ouid=115387068804829440568&rtpof=true&sd=true). 
 
