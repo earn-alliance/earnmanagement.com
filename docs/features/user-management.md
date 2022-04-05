@@ -8,14 +8,15 @@ sidebar_position: 6
 
 1. Admins who have accounts can manage and access all features of the account.
 2. Scholars who have accounts can view:
-   * Activity and performance 
+   * Individual activity and performance 
    * Historic payments and breakdowns of how they got paid
-   * Note that scholars have **read-only **access to your account
+   * Note that scholars have **read-only** access to your account;they will only have access to a custom view of the [Tracker](tracker.md), [Payments](payments.md) and [Axie Search](axie-search.md) 
+
 
 ## Invite User
 There are two ways to invite users depending on what you are doing.
 
-### Invite User From Tracker
+### Invite User from Tracker
 
 Using the [Tracker](tracker.md), you may invite a user while adding/editing an account.
 
@@ -25,7 +26,7 @@ When adding or editing an account, click on "scholar’s payment ronin address" 
 
 ![use scholar email](01_Tracker_Use_Scholar_Email.gif)
 
-### Invite User From User Management
+### Invite User from User Management
 
 Earn Management has a portal for managing users.
 
