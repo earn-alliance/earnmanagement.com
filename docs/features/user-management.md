@@ -10,7 +10,7 @@ sidebar_position: 6
 2. Scholars who have accounts can view:
    * Individual activity and performance 
    * Historic payments and breakdowns of how they got paid
-   * Note that scholars have **read-only** access to your account;they will only have access to a custom view of the [Tracker](tracker.md), [Payments](payments.md) and [Axie Search](axie-search.md) 
+   * Note that scholars have **read-only** access to your account; they will only have access to a custom view of the [Tracker](tracker.md), [Payments](payments.md) and [Axie Search](axie-search.md) 
 
 
 ## Invite User
