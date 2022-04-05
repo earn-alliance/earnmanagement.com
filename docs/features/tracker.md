@@ -73,20 +73,13 @@ Enter the last date the scholar was paid. By leaving it blank, it will default t
 
 ### Bulk Import
 
-Rather than add accounts one-by-one manually, you can choose to **bulk import all scholars' accounts** by uploading a `.json` file.
+Rather than add accounts one-by-one manually, you can choose to **bulk import all scholars’ accounts** by uploading a `.json` or Excel file. 
 
-The `.json` file format is the same as that of [Axie Management](https://axie.management). You may export your data and directly import it into Earn Alliance.
+1. If you currently use [Axie Management](https://axie.management), you may export your data in a `.json` file and directly import it into Earn Alliance.
 
-**The format is the following:**
+2. If you don’t currently use Axie Management, upload a `.json` file in [this format](https://app.earnalliance.com/files/sample_em_json_format.json). 
 
-`  {
-        "managerShare": 50,
-        "eth": "ronin:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-        "name": "name-of-the-account",
-        "scholarPayoutAddress": "ronin:yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
-        "investorPercentage": 0,
-        "investorRonin": ""
-    }`
+3. Using Excel? Here's a [demo template](https://docs.google.com/spreadsheets/d/1RqtQKuyx5ZjDDd0tOR6gDnNrzkn7NlYU/edit?usp=sharing&ouid=115387068804829440568&rtpof=true&sd=true). 
 
 #### How to import
 
@@ -94,15 +87,13 @@ Select "Bulk Import" by clicking above the "Add Account" button
 
 ![bulk import](02_Tracker_BulkImport.gif)
 
-Select your `.json` file and click upload
+Upload your `.json` or Excel file
 
-![upload bulk import json](02_Tracker_BulkImport1.gif)
+![upload bulk import](02_Tracker_BulkImportUpload.png)
 
 View your newly imported accounts!
 
 _Note: Accounts cannot be duplicated on the tracker. If you attempt to import a file with duplicate accounts, an error message will occur._
-
-![bulk upload error](02_Tracker_BulkImport2.gif)
 
 ### Tracked Data
 
