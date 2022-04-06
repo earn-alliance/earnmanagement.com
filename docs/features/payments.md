@@ -10,18 +10,20 @@ With this feature, whether you have 10 or 1,000 scholars, you will be able to **
 
 If you decide to invite your [scholars via email](user-management.md#invite-user-from-user-management), they can also view historic individual payments and the breakdown of how they were paid. Scholars invited have **read-only access to your account**.
 
+By default, the guild or manager's account is the wallet you've set as the treasury, which can be set or changed in [Wallets](wallets.md). All manager payments will be transferred to this treasury account. 
+
 ### Generate Payments
 
 1. To **generate a Payment Event**, click “Generate Payments.”
 
 2. Select your payment start and earn date, and “Generate.”
 
-Note that when choosing a date range, it only picks up scholars _based on their last paid day_.
+Note that when choosing a date range, it only picks up scholars _based on their last paid day_ on their account.
 
-For example:
+For example: when entering a Earn Start Date of October 1st, 2021 and an Earn End Date of today (April 1st, 2022): 
 
 * If the scholar was last paid today, there would be no payment to generate.
-* If the scholar was last paid on Nov 1, 2021, it will generate a payment for the scholar’s earnings between Nov 1, 2021 and today.
+* If the scholar was last paid on November 1st, 2021, it will generate a payment for the scholar’s earnings between November 1st, 2021 and today.
 
 ![earn start end date](04_Payments_Enter_Start_End_Date.gif)
 
@@ -32,7 +34,7 @@ For example:
     * Total payment amount
     * Payment status
 
-4. You can always **delete a Payment Event** using the action menu on the right.
+4. You can **delete a Payment Event** using the action menu on the right when the payment state is Not Paid. When the payment event is Generating, Processing or Paid, the event canot be deleted.
 
 ![delete payment event](04_Payments_Delete-Payment-Event.png)
 
@@ -50,7 +52,7 @@ For example:
 
 ![skip payment](04_Payments_Skip.gif)
 
-8. **Expand each Payment Event** by clicking on the arrow on the left, which will show you something of an itemized invoice. You will see who and how much each person gets paid, usually the scholar, manager and trainer, if any.
+8. **Expand each Payment Event** by clicking on the arrow on the left, which will show you something of an itemized invoice breakdown. You will see who and how much each person gets paid, usually the scholar, manager and trainer, if any.
 
 ![expand payment details](04_Payments_Expand_Detail.gif)
 
@@ -72,7 +74,7 @@ For example:
     * Paid
     * Unpaid
 
-3. All payments with a Pending Claim or Error status **must be resolved** before payments can be started. If you attempt to Start Payments with unresolved issues, a warning message will appear. 
+3. Prior to starting a payment, all payments with a Pending Claim or Error status **must be resolved**. If you attempt to Start Payments with unresolved issues, a warning message will appear. 
 
 ![Payment warning message](04_Payments_Error.gif)
 
@@ -80,6 +82,6 @@ For example:
 
 ![Payment status dropdown filter](04_Payments_Status-Filter.gif)
 
-5. When you are ready to **pay your scholars**, click “Start Payments." To watch the payouts occur, select [Wallet Commander](wallet-commander.md) under the Settings icon at the top right. Here, you will see the transaction being updated on the blockchain in real time.
+5. When you are ready to **pay your scholars**, click “Start Payments." [Wallet Commander](wallet-commander.md) events will be generated and each payment will be updated live on this page. You may also watch the generated payouts wallet commands get executed by selecting Wallet Commander under Settings at the top right. Here, you will see the transaction being updated on the blockchain in real time.
 
 And that’s payments done and dusted – sans messy excel sheets, SLP confusions, over- and under-paying scholars every month.
