@@ -40,7 +40,9 @@ For example:
 
 5. To **double-check total SLP earned**, click on the ronin address to view all transactions associated with that wallet.
 
-6. Click on the action menu on the right to **edit the scholar or delete the generated scholar payment**.
+6. Click on the action menu on the right to **edit the scholar or skip the account for this payment plan**. You are also able to add a reason for skipping.
+
+![skip payment](04_Payments_Skip.gif)
 
 7. **Expand each payment event** by clicking on the arrow on the left, which will show you something of an itemized invoice. You will see who and how much each person gets paid, usually the scholar, manager and trainer, if any.
 
