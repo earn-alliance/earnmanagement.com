@@ -16,11 +16,11 @@ By default, the guild or manager's account is the wallet you've set as the treas
 
 1. To **generate a Payment Event**, click “Generate Payments.”
 
-2. Select your payment start and earn date, and “Generate.”
+2. Select your payment start and end date, and “Generate.”
 
 Note that when choosing a date range, it only picks up scholars _based on their last paid day_ on their account.
 
-For example: when entering a Earn Start Date of October 1st, 2021 and an Earn End Date of today (April 1st, 2022): 
+For example: when entering a earn start date of October 1st, 2021 and an earn end date of today (April 1st, 2022): 
 
 * If the scholar was last paid today, there would be no payment to generate.
 * If the scholar was last paid on November 1st, 2021, it will generate a payment for the scholar’s earnings between November 1st, 2021 and today.
@@ -34,9 +34,9 @@ For example: when entering a Earn Start Date of October 1st, 2021 and an Earn En
     * Total payment amount
     * Payment status
 
-4. You can **delete a Payment Event** using the action menu on the right when the payment state is Not Paid. When the payment event is Generating, Processing or Paid, the event canot be deleted.
+4. You can **delete a Payment Event** using the action menu on the right when the payment status is Not Paid. When the payment event is Generating, Processing or Paid, the event cannot be deleted.
 
-![delete payment event](04_Payments_Delete-Payment-Event.png)
+![delete payment event](04_Payments_Delete.gif)
 
 5. Click into the payment to see **Payment Details**.
     * Start and end date
@@ -81,6 +81,7 @@ For example: when entering a Earn Start Date of October 1st, 2021 and an Earn En
 4. To resolve any accounts with Pending Claims and/or Errors, **use the payment status dropdown filter** to generate a list of accounts.
 
 ![Payment status dropdown filter](04_Payments_Status-Filter.gif)
+
 
 5. When you are ready to **pay your scholars**, click “Start Payments." [Wallet Commander](wallet-commander.md) events will be generated and each payment will be updated live on this page. You may also watch the generated payouts wallet commands get executed by selecting Wallet Commander under Settings at the top right. Here, you will see the transaction being updated on the blockchain in real time.
 
