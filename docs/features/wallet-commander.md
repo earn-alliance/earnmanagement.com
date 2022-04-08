@@ -72,7 +72,7 @@ First, you need to set up your private keys. Then, you can run the `wallet-comma
 #### Set Up Private Keys
 To start signing remote commands such as Payments, Claims and Distribution of Accounts, you will need to first set up your `secrets.json` file, which is a json map of a `{ronin-address}:{private-key}`. 
 
-To find your private key, read the instructions on how [here](...).
+To find your private key, read the instructions on how [here](TODO: coop).
 
 Your `secrets.json` file will look like this:
 
