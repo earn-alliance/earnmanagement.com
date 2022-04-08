@@ -72,7 +72,13 @@ First, you need to set up your private keys. Then, you can run the `wallet-comma
 #### Set Up Private Keys
 To start signing remote commands such as Payments, Claims and Distribution of Accounts, you will need to first set up your `secrets.json` file, which is a json map of a `{ronin-address}:{private-key}`. 
 
-To find your private key, read the instructions on how [here](TODO: coop).
+To find your private key:
+1. Go to your ronin account
+2. Click Manage at the top right
+3. Find the wallet
+4. View private key
+
+![view private key](10_Wallet-Commander_Private-Key.gif)
 
 Your `secrets.json` file will look like this:
 
@@ -113,7 +119,7 @@ If you are successful, you will find the following logs:
 
 When the `wallet-commander` is running, it takes transaction requests from Earn Alliance and signs them with your private keys. The following events may occur when performing operations with Earn Alliance:
 
-* [Ronin Claims](payments.md) - When processing a PENDING_CLAIM event from a Payment Event, the Wallet Commander will sign and request claims on your behalf
+* [Ronin Claims](payments.md#start-payments) - When processing a PENDING_CLAIM event from a Payment Event, the Wallet Commander will sign and request claims on your behalf
 * [SLP Transfers](payments.md#start-payments) - When transferring SLP, the Wallet Commander will sign transfer requests to execute a Payment Event
 * Axie Transfers - When distributing Axies with [Team Matchmaking](builds-and-teams.md#team-templates), the Wallet Commander will sign transfers of Axie assets
 
