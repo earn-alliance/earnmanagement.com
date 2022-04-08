@@ -14,6 +14,10 @@ The owner of the wallet(s) that are being managed by a third-party, such as Earn
 
 The tool will be open-sourced so that the code can be audited for safety and security. 
 
+## Current Status
+
+The wallet commander is currently in **ALPHA** status. Right now there is no whitelist protection of ensuring wallet commands are transfering assets amongst wallets you have approved. We are aiming to quickly get the wallet commander to Beta Status with improved security.
+
 
 ## Getting Started
 
@@ -75,9 +79,9 @@ Your secrets.json file will look like this:
 
 ```.json
 {
-	"ronin:ab673081b96b53ed7de9f87c5256212c2dbc016e":"0x4e2148146b276353252532b038c732e2fc",
-"ronin:966d60933325252532969e1b5aasfafafafdsfafsd": "0x8643bb38c2e753252527e308022a3",
-"ronin:f3392d399d67cfaa6094e202d21139cab65f3cb0":"0xfda4fe502532525252c0327931fdbe2ed4946",
+   "ronin:ab673081b96b53ed7de9f87c5256212c2dbc016e":"0x4e2148146b276353252532b038c732e2fc",
+   "ronin:966d60933325252532969e1b5aasfafafafdsfafsd": "0x8643bb38c2e753252527e308022a3",
+   "ronin:f3392d399d67cfaa6094e202d21139cab65f3cb0":"0xfda4fe502532525252c0327931fdbe2ed4946"
 }
 ```
 
@@ -91,13 +95,32 @@ Click the Settings icon at the top right of your account and go to the Wallet Co
 
 At the top right, you will find your **Client ID**. Copy that and run the following command in your terminal. 
 
+// TODO: Show screenshot tiff
+
 ```
 wallet-commander start earn-alliance –client-id [enter-client-id-here]
 ```
 
 If you are successful, you will find the following logs:
 
-// TODO: example logs
+// TODO: example logs image tiff
+
+#### Usage
+
+//TODO: Wallet Commander Usage
+
+When the wallet commander is running, it takes transaction requests from Earn Alliance and signs them with your private keys. The following events may occur when performing operations with Earn Alliance.
+
+* Ronin Claims (Payments Claims TODO Link) - When processing a PENDING_CLAIM event from a Payment Plan, the wallet commander will sign and request claims on your behalf
+* SLP Transfers (Start Payments TODO Link) - When transfering SLP the wallet commander will sign transfer requests to execute a payment plan
+* Axie Transfers - When distributing axies with Team Matchmaking (TODO - link), the wallet commander will sign transfers of axie assets
+
+In the future, the following operations will be added
+
+* AXS Claims and Transfers - Ability to transfer AXS and claim winnings
+* RON transfers - Automatically transfer RON to accounts in need
+* Account Creationg and Validation - Automatically create new ronin wallets and validate their emails
+
 
 
 
