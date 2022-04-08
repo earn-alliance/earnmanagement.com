@@ -48,7 +48,7 @@ For example: when entering a earn start date of October 1st, 2021 and an earn en
 
 6. To **double-check total SLP earned**, click on the ronin address to view all transactions associated with that wallet.
 
-7. Click on the action menu on the right to **edit the scholar or skip this account for this Payment Event**.
+7. Click on the action menu on the right to **edit the scholar or skip a payment for this Payment Event**.
 
 ![skip payment](04_Payments_Skip.gif)
 
@@ -66,8 +66,8 @@ For example: when entering a earn start date of October 1st, 2021 and an earn en
 
 2. When the Payment Event is ready, you can **view each payment’s status**. 
 
-    * Generating
-    * Processing
+    * Generating 
+    * Processing - pending payment 
     * Pending Claim
     * Skip
     * Error
@@ -78,11 +78,10 @@ For example: when entering a earn start date of October 1st, 2021 and an earn en
 
 ![Payment warning message](04_Payments_Error.gif)
 
-4. To resolve any accounts with Pending Claims and/or Errors, **use the payment status dropdown filter** to generate a list of accounts.
+4. To resolve any accounts with Pending Claims, **use the payment status dropdown filter** to generate a list of accounts. Boot up the [Wallet Commander](wallet-commander.md), which will process all claims before calculating the final payment amount, and you will be able to see each event disappear from the list. To resolve Errors, use the dropdown filter again. You should be able to see the cause of the error under each account, and choose to skip if you wish. 
 
 ![Payment status dropdown filter](04_Payments_Status-Filter.gif)
 
-
-5. When you are ready to **pay your scholars**, click “Start Payments." [Wallet Commander](wallet-commander.md) events will be generated and each payment will be updated live on this page. You may also watch the generated payouts wallet commands get executed by selecting Wallet Commander under Settings at the top right. Here, you will see the transaction being updated on the blockchain in real time.
+5. When you are ready to **pay your scholars**, click “Start Payments." Wallet Commander events will be generated and each payment will be updated live on this page. You may also watch the generated payouts wallet commands get executed by selecting Wallet Commander under Settings at the top right. Here, you will see the transaction being updated on the blockchain in real time.
 
 And that’s payments done and dusted – sans messy excel sheets, SLP confusions, over- and under-paying scholars every month.
