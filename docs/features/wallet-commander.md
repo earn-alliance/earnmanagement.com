@@ -12,11 +12,11 @@ Earn Alliance does not wish to and **will never take custody of your private key
 
 The owner of the wallet(s) that are being managed by a third-party, such as Earn Alliance, can **register private keys with specific permissions on what the third-party is allowed to do with them**.
 
-The tool will be open-sourced so that the code can be audited for safety and security. 
+The tool will be open-source so that the code can be audited for safety and security. 
 
 ## Current Status
 
-The wallet commander is currently in **ALPHA** status. Right now there is no whitelist protection of ensuring wallet commands are transfering assets amongst wallets you have approved. We are aiming to quickly get the wallet commander to Beta Status with improved security.
+The Wallet Commander is currently in **alpha** status. Currently there is no whitelist protection of ensuring wallet commands are transferring assets amongst wallets you have approved. We are aiming to quickly get the Wallet Commander to beta status with improved security.
 
 
 ## Getting Started
@@ -74,7 +74,7 @@ To start signing remote commands such as Payments, Claims and Distribution of Ac
 
 To find your private key, read the instructions on how [here](...).
 
-Your secrets.json file will look like this:
+Your `secrets.json` file will look like this:
 
 
 ```.json
@@ -93,9 +93,11 @@ To do this you will need to get your **Client ID** from Earn Alliance.
 
 Click the Settings icon at the top right of your account and go to the Wallet Commander. 
 
-At the top right, you will find your **Client ID**. Copy that and run the following command in your terminal. 
+At the top right, you will find your **Client ID**. 
 
-// TODO: Show screenshot tiff
+![wallet commander client id](10_Wallet-Commander_Client-ID.png)
+
+Copy that and run the following command in your terminal.
 
 ```
 wallet-commander start earn-alliance –client-id [enter-client-id-here]
@@ -103,23 +105,23 @@ wallet-commander start earn-alliance –client-id [enter-client-id-here]
 
 If you are successful, you will find the following logs:
 
-// TODO: example logs image tiff
+![examplelog](10_Wallet-Commander_Example-Log.png)
 
 #### Usage
 
-//TODO: Wallet Commander Usage
+![wallet commander usage](10_Wallet-Commander_Usage.png)
 
-When the wallet commander is running, it takes transaction requests from Earn Alliance and signs them with your private keys. The following events may occur when performing operations with Earn Alliance.
+When the `wallet-commander` is running, it takes transaction requests from Earn Alliance and signs them with your private keys. The following events may occur when performing operations with Earn Alliance:
 
-* Ronin Claims (Payments Claims TODO Link) - When processing a PENDING_CLAIM event from a Payment Plan, the wallet commander will sign and request claims on your behalf
-* SLP Transfers (Start Payments TODO Link) - When transfering SLP the wallet commander will sign transfer requests to execute a payment plan
-* Axie Transfers - When distributing axies with Team Matchmaking (TODO - link), the wallet commander will sign transfers of axie assets
+* [Ronin Claims](payments.md) - When processing a PENDING_CLAIM event from a Payment Event, the Wallet Commander will sign and request claims on your behalf
+* [SLP Transfers](payments.md#start-payments) - When transferring SLP, the Wallet Commander will sign transfer requests to execute a Payment Event
+* Axie Transfers - When distributing Axies with [Team Matchmaking](builds-and-teams.md#team-templates), the Wallet Commander will sign transfers of Axie assets
 
-In the future, the following operations will be added
+In the future, the following operations will be added:
 
 * AXS Claims and Transfers - Ability to transfer AXS and claim winnings
-* RON transfers - Automatically transfer RON to accounts in need
-* Account Creationg and Validation - Automatically create new ronin wallets and validate their emails
+* RON Transfers - Automatically transfer RON to accounts in need
+* Account Creation and Validation - Automatically create new ronin wallets and validate their emails
 
 
 
