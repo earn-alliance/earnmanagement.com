@@ -12,7 +12,7 @@ Earn Alliance does not wish to and **will never take custody of your private key
 
 The owner of the wallet(s) that are being managed by a third-party, such as Earn Alliance, can **register private keys with specific permissions on what the third-party is allowed to do with them**.
 
-The tool will be open-source so that the code can be audited for safety and security. 
+The tool will be open-source so that the code can be audited for safety and security. View the code [here](https://github.com/earn-alliance/wallet-commander-cli/). 
 
 ## Current Status
 
