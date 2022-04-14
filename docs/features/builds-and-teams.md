@@ -45,6 +45,8 @@ When you’re done building your desired teams, they’ll all appear under “Te
 
 The next step is to match all of your Axies into teams according to your Team presets.
 
+To distribute Teams to empty wallets, **you must have [Wallet Commander](wallet-commander.md) installed**.
+
 Below, you’ll see this scholarship has automatically distributed their Axies into 538 teams, according to their meta – beast, aqua and plant. In one click, 1,614 beast, aqua and plant Axies were sent to 538 ronin wallets– a task that would’ve otherwise taken hours.
 
 ![match teams](08_TeamMatching_Cabala.png)
