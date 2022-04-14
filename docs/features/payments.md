@@ -4,13 +4,13 @@ sidebar_position: 4
 
 # Payments
 
-One of the most time-consuming and error-prone tasks when running an Axie scholarship is processing **accurate, transparent, secure and detailed payments**.
-
-With this feature, whether you have 10 or 1,000 scholars, you will be able to **process batch payments with a few clicks**.
+One of the most time-consuming and error-prone tasks when running an Axie scholarship is processing **accurate, transparent, secure and detailed payments**. With this feature, whether you have 10 or 1,000 scholars, you will be able to **process batch payments with a few clicks**.
 
 If you decide to invite your [scholars via email](user-management.md#invite-user-from-user-management), they can also view historic individual payments and the breakdown of how they were paid. Scholars invited have **read-only access to your account**.
 
 By default, the guild or manager's account is the wallet you've set as the treasury, which can be set or changed in [Wallets](wallets.md). All manager payments will be transferred to this treasury account. 
+
+Before you start Payments, **you must have [Wallet Commander](wallet-commander.md) installed**. 
 
 ### Generate Payments
 
