@@ -154,3 +154,7 @@ Or **sort your tracked accounts** by any of the following metrics:
 * Unclaimed SLP
 * SLP Balance _(what’s in the scholar’s wallet)_
 * SLP Total _(total unclaimed SLP and SLP balance)_
+
+### How We Track Data
+
+All data is synced on our servers every 3 hours using an API that speaks directly to Axie Infinity's servers. 
