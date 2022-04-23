@@ -8,6 +8,8 @@ As a scholarship owner or manager, how do you keep track of accounts attached to
 
 Our Insights feature allows you to **quickly** **audit your scholars’ performance** and **immediately identify consistently high-performing, under-performing or inactive accounts**. 
 
+_Note: Insights only starts tracking from the moment you've imported your accounts; you will not be able to immediately retrieve any data from this feature._  
+
 You can do this using 3 filters:
 
 1. Date range: Select the last 3, 7, 14, or 30 days 
