@@ -91,6 +91,8 @@ Your `secrets.json` file will look like this:
 }
 ```
 
+Ensure the file is named `secrets.json` and is stored in the same folder from which the command is run.
+
 
 #### Start the `wallet-commander`
 Once your private keys file is ready, you can start the `wallet-commander` to sign operations on your behalf. 
