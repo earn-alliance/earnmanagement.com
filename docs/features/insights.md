@@ -42,4 +42,31 @@ You will see below that in this scholarship, 98 accounts have registered 0 SLP e
 
 ![insights filter](09_Insights_3days.gif)
 
-Beyond the day-to-day account tracking, the Insights feature gives you a high-level, big-picture view of 1) which and 2) the number of accounts that are performing in a specific category.
+
+### Flag Accounts
+
+After generating a list of accounts you're interested in, you are able to flag all accounts at once by clicking Select All and Bulk Flag Accounts. 
+
+![BulkFlag](09_BulkFlag.gif)
+
+Or flag accounts individually using the action menu on the right.  
+
+![BulkFlag_AddFlag](09_BulkFlag_AddFlag.gif)
+
+Each time you flag an account, you have the option of adding a note. Expand each account to view its note log.  
+
+![BulkFlag_ViewNote](09_BulkFlag_ViewNote.gif)
+
+In the action menu, you can also clear all the flags associated with an account. This is especially helpful if a new scholar has started playing on that account and a reset is needed. 
+
+![BulkFlag_ClearFlags](09_BulkFlag_ClearFlags.gif)
+
+Note that accounts can have a maximum of 3 flags. Any attempt to add any additional flags will result in an error message. 
+
+![BulkImport_3Flags](09_BulkFlag_3Flags.gif)
+
+Click Export to download all data. 
+
+![BulkImport_Export](https://canny.io/images/9e899c6eaa5304907d25fc1b721ec2dc.gif)
+
+Beyond the day-to-day account tracking, the Insights feature gives you a high-level, big-picture view of which - and the number of - accounts that are performing in a specific catergory, and allows you to organize your monitoring process in a systematic way.  
