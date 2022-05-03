@@ -63,10 +63,10 @@ In the action menu, you can also clear all the flags associated with an account.
 
 Note that accounts can have a maximum of 3 flags. Any attempt to add any additional flags will result in an error message. 
 
-![BulkImport_3Flags](09_BulkFlag_3Flags.gif)
+![BulkFlag_3Flags](09_BulkFlag_3Flags.gif)
 
 Click Export to download all data. 
 
-![BulkImport_Export](https://canny.io/images/9e899c6eaa5304907d25fc1b721ec2dc.gif)
+![BulkFlag_Export](09_BulkFlag_Export.gif)
 
 Beyond the day-to-day account tracking, the Insights feature gives you a high-level, big-picture view of which - and the number of - accounts that are performing in a specific catergory, and allows you to organize your monitoring process in a systematic way.  
