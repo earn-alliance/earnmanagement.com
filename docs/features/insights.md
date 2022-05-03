@@ -69,4 +69,4 @@ Click Export to download all data.
 
 ![BulkFlag_Export](09_BulkFlag_Export.gif)
 
-Beyond the day-to-day account tracking, the Insights feature gives you a high-level, big-picture view of which - and the number of - accounts that are performing in a specific catergory, and allows you to organize your monitoring process in a systematic way.  
+Beyond the day-to-day account tracking, the Insights feature gives you a high-level, big-picture view of which - and the number of - accounts that are performing in a specific category, and allows you to organize your monitoring process in a systematic way.  
