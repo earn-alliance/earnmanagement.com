@@ -155,6 +155,21 @@ Or **sort your tracked accounts** by any of the following metrics:
 * SLP Balance _(what’s in the scholar’s wallet)_
 * SLP Total _(total unclaimed SLP and SLP balance)_
 
+### Unassign Accounts
+
+When a scholar is no longer playing on an account, **you can temporarily unassign an account** instead of deleting it from the tracker. 
+
+Select "Unassign" from the action menu located on the far right of each account row. When an account is unassigned, all information attached to the scholar will be automatically removed.
+
+This includes:
+* Scholar payment address
+* Scholar email 
+* Trainer payment address
+* Trainer email 
+* Last paid date 
+
+![unassign_account](02_Tracker_UnassignAccount.gif)
+
 ### How We Track Data
 
 All data is synced on our servers every 3 hours using an API that speaks directly to Axie Infinity's servers. 
