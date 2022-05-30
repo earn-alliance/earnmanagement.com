@@ -10,7 +10,7 @@ Here’s how to get started:
 
 1. Head to our [registration page](https://app.earnalliance.com/).
 
-2. Sign up or log in using a valid email address. No additional installation is necessary.
+2. Sign up using a valid email address. Or continue with Google or Discord. No additional installation is necessary.
 
 ![log in](01_Getting_Started_Log_In.gif)
 

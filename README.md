@@ -1,2 +1,1 @@
-# earnmanagement.com asdf
- asfd
+# earnmanagement.com
