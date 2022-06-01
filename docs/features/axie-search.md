@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Traditionally, in the Axie marketplace, players can only see Axies in the one account they’re playing with.
 
-Our Axie dashboard gives you **a master overview of the Axies you own** across _all_ your tracked ronin wallets.
+Our Axie dashboard gives you **a master overview of the Axies you own** across _all_ your tracked ronin wallets. Though you can also see any individual accounts' Axies from the [Tracker](Tracker.md).
 
 
 ![all axies scroll](03_Axies_All_Axies_Scroll.gif)
