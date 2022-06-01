@@ -106,7 +106,7 @@ You can also find the following format here:
 
 3. Using Excel? Here's a [demo template](https://docs.google.com/spreadsheets/d/1RqtQKuyx5ZjDDd0tOR6gDnNrzkn7NlYU/edit?usp=sharing&ouid=115387068804829440568&rtpof=true&sd=true). 
 
-#### How to import
+#### How to Import
 
 Select "Bulk Import" by clicking above the "Add Account" button
 
@@ -124,36 +124,29 @@ _Note: Accounts cannot be duplicated on the tracker. If you attempt to import a 
 
 With each account added, you’ll be able to **access the following data**:
 
-* Average SLP _(average of all tracked scholars across last 30 days)_
-* Manager SLP _(total for last 30 days)_
-* Scholar SLP _(total for last 30 days)_
-* Trainer SLP _(total for last 30 days)_
-* Total SLP _(total manager + scholar + trainer SLP for last 30 days)_
-* Total Scholars Tracked
-* MMR 
-* Gross Revenue _(today, yesterday, this month)_
-
+* Labels
+* Today SLP
+* Yesterday SLP
+* Average SLP 
+* Games Played Today _(total games played in a 24-hour-period yesterday)_
+* Average Games Played _(average daily games played)_
+* Total MMR 
+* Average MMR
+* Number of Axies
 
 ### Sort Accounts
 
-The sort function allows you to easily** identify your highest and lowest performing accounts**, and whether scholars in the latter category may need training.
+The sort function allows you to easily **identify your highest and lowest performing accounts**, and whether scholars in the latter category may need training.
 
 Utilizing this data will help you make decisions in building an even more successful scholarship.
 
 **Search for accounts** easily by using the label filter or account name.
 
+### View Accounts' Axies
 
-Or **sort your tracked accounts** by any of the following metrics:
+Easily view any account's Axies by selecting the # Axies in each account row. 
 
-* Today _(SLP)_
-* Yesterday _(SLP)_
-* Average _(SLP/past 30 days)_
-* Win Rate
-* Number of Axies per account 
-* Next Claim _(days remaining until next payment)_
-* Unclaimed SLP
-* SLP Balance _(what’s in the scholar’s wallet)_
-* SLP Total _(total unclaimed SLP and SLP balance)_
+![ViewAxies](01_Tracker_View-Axies.gif)
 
 ### Unassign Accounts
 
@@ -168,7 +161,8 @@ This includes:
 * Trainer email 
 * Last paid date 
 
-![unassign_account](02_Tracker_UnassignAccount.gif)
+![unassignaccount](02_Tracker_UnassignAccount.gif)
+
 
 ### How We Track Data
 
