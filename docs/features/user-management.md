@@ -4,16 +4,40 @@ sidebar_position: 6
 
 # User Management
 
-**There are 2 types of roles on Earn Alliance:**
+**There are 4 types of roles on Earn Alliance:**
 
-1. Admins who have accounts can manage and access all features of the account.
-2. Scholars who have accounts can view:
+1. **Owner** 
+
+The Owner is automatically assigned to the user who started the guild account. There can only be one owner of each account and this cannot be transferred. 
+
+2. **Admin**
+
+Admins have the same permissions as the Owner. They can manage and access all features of the account with the exception that they cannot remove other Admins from the account. 
+
+3. **Manager**
+
+Managers are able to monitor and manage the performance of the scholar accounts they directly supervise, without having access to macro guild data or the ability to make changes that directly affect payments, such as manipulating the revenue share percentages or ronin addresses. 
+
+Managers have limited permissions. They can:  
+   * [Invite scholars](user-management.md#invite-users) to join Earn Management
+   * Monitor scholars' performance
+   * Audit scholars' accounts
+   * [Flag](insights.md#flag-accounts) and add notes to accounts
+   * Add, edit and remove account labels
+   * Monitor their own payment breakdowns
+   * Manage their own payment ronin address
+   * View the guild's [Axies](axie-search.md)
+   * Experiment with creating [Builds and Teams](builds-and-teams.md) templates
+
+4. **Scholar** 
+
+Scholars have read-only permissions. They can view:
    * Individual activity and performance 
    * Historic payments and breakdowns of how they got paid
    * Note that scholars have **read-only** access to your account; they will only have access to a custom view of the [Tracker](tracker.md), [Payments](payments.md) and [Axie Search](axie-search.md) 
 
 
-## Invite User
+## Invite Users
 There are 3 ways to invite users.
 
 ### Invite Scholar or Trainer via Tracker
@@ -36,11 +60,11 @@ Every guild account has its own unique invite URL.
 
 ![invite url](06_InviteURL.gif)
 
-For security purposes, anyone signing up for or logging in to an Earn Alliance account via the invite URL will join your guild account with **scholar permissions only**. To upgrade them to admin status, you can do so manually under "Manage and Invite Users."
+For security purposes, anyone signing up for or logging in to an Earn Alliance account via the invite URL will join your guild account with **scholar permissions only**. To upgrade them to admin or manager status, you can do so manually under "Manage and Invite Users."
 
 
 
-### Invite Admin or Scholar via User Management
+### Invite Admin, Manager or Scholar via User Management
 
 Earn Management has a portal for managing users.
 
@@ -56,17 +80,27 @@ Select “Invite User”
 * Email address
 * Permission type: Admin 
 
-**To invite scholars** to create an account via email, enter their:
+**To invite managers or scholars** to create an account via email, enter their:
 
 * Email address
-* Permission type: Scholar
+* Permission type: Manager/Scholar
 * Assigned scholar account (_this must be an account that’s already been added to your [Tracker](tracker.md)_)
   
 ![invite scholar](06_InviteUser_Scholar.gif)
 
 **All invited users will be sent an invitation link** via email, and be able to sign up for an account on Earn Management.
 
-Scholars will be need to enter their payment ronin address to sign up. Note that if their payment address is already in the system, they **will not** be able to sign up due to duplicate ronin addresses.
+Scholars have the option to enter their payment ronin address to sign up. Note that if their payment address is already in the system, they **will not** be able to sign up due to duplicate ronin addresses.
+
+## Guild Settings
+
+Under Guild Settings, you are able to 
+
+1. Change your guild's name
+
+![change-guild-name](06_Guild-Name.gif)
+
+2. Invite scholars via [guild URL](user-management.md#invite-scholar-via-guild-url)
 
 ## Create New Guild 
 
