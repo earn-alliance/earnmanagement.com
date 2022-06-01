@@ -100,7 +100,7 @@ Under Guild Settings, you are able to
 
 ![change-guild-name](06_Guild-Name.gif)
 
-2. Invite scholars via [guild URL](usermanagement.md#invite-scholar-via-guild-url)
+2. Invite scholars via [guild URL](user-management.md#invite-scholar-via-guild-url)
 
 ## Create New Guild 
 
