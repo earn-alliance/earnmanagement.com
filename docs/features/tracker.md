@@ -148,6 +148,20 @@ Easily view any account's Axies by selecting the # Axies in each account row.
 
 ![ViewAxies](01_Tracker_View-Axies.gif)
 
+### Flag Accounts
+
+Flag accounts using the action menu on the right.
+
+Each time you flag an account, you have the option of adding a note. Expand each account to view its note log.
+
+![flag-account](xxx TODO)
+
+In the action menu, you can also clear all the flags associated with an account. This is especially helpful if a new scholar has started playing on that account and a reset is needed.
+
+![clear-flags](xxx TODO)
+
+Note that accounts can have a maximum of 3 flags. Any attempt to add any additional flags will result in an error message.
+
 ### Unassign Accounts
 
 When a scholar is no longer playing on an account, **you can temporarily unassign an account** instead of deleting it from the tracker. 
@@ -163,6 +177,23 @@ This includes:
 
 ![unassignaccount](02_Tracker_UnassignAccount.gif)
 
+### Bulk Edit Accounts
+
+Perform the following actions in bulk by selecting one or more (or all) account(s).  
+
+* Change scholar, manager and trainer % share 
+* Change scholar's last paid date 
+* Add label(s)
+* Clear all labels
+* Add flag and corresponding note
+* Clear all flags
+* Unassign
+* Delete
+* Export 
+
+Selecting any one account will prompt action icons to appear. 
+
+![bulk-edit-accounts](xxx TODO)
 
 ### How We Track Data
 
