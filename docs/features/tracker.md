@@ -154,11 +154,9 @@ Flag accounts using the action menu on the right.
 
 Each time you flag an account, you have the option of adding a note. Expand each account to view its note log.
 
-![flag-account](xxx TODO)
-
 In the action menu, you can also clear all the flags associated with an account. This is especially helpful if a new scholar has started playing on that account and a reset is needed.
 
-![clear-flags](xxx TODO)
+![flag-account](02_Tracker_Flag-Account.gif)
 
 Note that accounts can have a maximum of 3 flags. Any attempt to add any additional flags will result in an error message.
 
@@ -193,7 +191,7 @@ Perform the following actions in bulk by selecting one or more (or all) account(
 
 Selecting any one account will prompt action icons to appear. 
 
-![bulk-edit-accounts](xxx TODO)
+![bulk-edit-accounts](O2_Tracker_Bulk-Edit.gif)
 
 ### How We Track Data
 
