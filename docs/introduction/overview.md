@@ -10,7 +10,7 @@ Earn Management (EM), developed by Earn Alliance, is a community-first play-and-
 
 EM will enable millions of Axie Infinity scholarship owners, managers and gamers to streamline their activities – track performance, manage assets, automate processes and more – with the ease of a few clicks, and all on one seamless, easy-to-use dashboard.
 
-Our tools are 100% free for everyone to use. In the near future, we imagine some features will require minimal fees or may be unlocked by holding our future token.
+Our tools are 100% free for everyone to use. In the near future, we imagine some features will require minimal fees or may be unlocked by holding our future $ECT token.
 
 ## Why Earn Management?
 
@@ -22,11 +22,11 @@ Having identified and experienced the challenges of scaling a scholarship oursel
 
 ![all features](00_All_Features.gif)
 
-## Welcome to our community!
+## Welcome to Our Community!
 
 Come join us, ask questions and feel free to get involved. We're building this for everyone.
 
-* [Earn Alliance Community Discord](https://discord.gg/csZZEUUV9s)
+* [Earn Alliance Community Discord](https://discord.gg/GD65eQuVGz)
 * [Earn Alliance Twitter](https://twitter.com/earnalliance)
 * [Feature Requests and Issues on our Roadmap](https://roadmap.earnalliance.com)
 * Email us at support -at- earnalliance (dot) com
