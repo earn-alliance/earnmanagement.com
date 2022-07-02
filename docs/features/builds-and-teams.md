@@ -28,7 +28,7 @@ To create a “Backdoor Bird” build by selecting the following characteristics
 * All bird parts eyes
 * All bird parts ears
 
-Easily **edit or delete each build** (on the right), or **drag them up and down** and rank them according to priority (on the left). Priority _does not have a utility yet, and is simply used for organization_.
+Easily **edit or delete each build** (on the right). 
 
 Now that you’ve created your builds, it’s time to **create your first team template**.
 
@@ -36,7 +36,7 @@ If you know which team combinations work, go ahead and enter a name for your tea
 
 ![create team](07_BuildsTeams_CreateTeams.gif)
 
-When you’re done building your desired teams, they’ll all appear under “Teams.” Again, like the Builds, you can edit, delete, or drag to rank.
+When you’re done building your desired teams, they’ll all appear under “Teams.” Edit, delete, or drag to rank.
 
 ![edit drag teams](07_BuildsTeams_EditDragTeams.gif)
 
