@@ -31,11 +31,12 @@ Managers have limited permissions. They can:
 
 4. **Scholar** 
 
-Scholars have read-only permissions. They can view:
-   * Individual activity and performance 
-   * Historic payments and breakdowns of how they got paid
-   * Note that scholars have **read-only** access to your account; they will only have access to a custom view of the [Tracker](tracker.md), [Payments](payments.md) and [Axie Search](axie-search.md) 
+Scholars have read-only access to the [Tracker](tracker.md), [Payments](payments.md) and full access to the [Axie Search](axie-search.md). 
 
+With an account, they can: 
+   * View individual activity and performance 
+   * View Historic payments and breakdowns of how they got paid
+   * Manage their payment address
 
 ## Invite Users
 There are 3 ways to invite users.
