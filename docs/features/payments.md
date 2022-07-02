@@ -8,7 +8,7 @@ One of the most time-consuming and error-prone tasks when running an Axie schola
 
 If you decide to invite your [scholars via email](user-management.md#invite-user-from-user-management), they can also view historic individual payments and the breakdown of how they were paid. Scholars invited have **read-only access to your account**.
 
-By default, the guild or manager's account is the wallet you've set as the treasury, which can be set or changed in [Wallets](wallets.md). All manager payments will be transferred to this treasury account. 
+By default, the guild's account is the wallet you've set as the treasury, which can be set or changed in [Wallets](wallets.md). All guild payments will be transferred to this treasury account. 
 
 Before you start Payments, **you must have [Wallet Commander](wallet-commander.md) installed**. 
 
@@ -18,7 +18,7 @@ Before you start Payments, **you must have [Wallet Commander](wallet-commander.m
 
 2. Select your payment start and end date, and “Generate.”
 
-Note that when choosing a date range, it only picks up scholars _based on their last paid day_ on their account.
+When choosing a date range, it only picks up scholars _based on their last paid day_ on their account. 
 
 For example: when entering a earn start date of October 1st, 2021 and an earn end date of today (April 1st, 2022): 
 
@@ -26,6 +26,8 @@ For example: when entering a earn start date of October 1st, 2021 and an earn en
 * If the scholar was last paid on November 1st, 2021, it will generate a payment for the scholar’s earnings between November 1st, 2021 and today.
 
 ![earn start end date](04_Payments_Enter_Start_End_Date.gif)
+
+_Tip: Select a future date as your earn end date, so that the [Wallet Commander](wallet-commander.md) will pick up all pending claims between the time you created the Payment Event and the time you Start Payments._ 
 
 3. For every **Payment Event**, you will see:
 
@@ -42,7 +44,7 @@ For example: when entering a earn start date of October 1st, 2021 and an earn en
     * Start and end date
     * Scholar name and ronin address
     * When the scholar was last paid
-    * Scholar, manager and trainer SLP amount
+    * Scholar, guild and trainer SLP amount
     * Total SLP earned
     * Payment status
 
@@ -52,7 +54,7 @@ For example: when entering a earn start date of October 1st, 2021 and an earn en
 
 ![skip payment](04_Payments_Skip.gif)
 
-8. **Expand each Payment Event** by clicking on the arrow on the left, which will show you something of an itemized invoice breakdown. You will see who and how much each person gets paid, usually the scholar, manager and trainer, if any.
+8. **Expand each Payment Event** by clicking on the arrow on the left, which will show you something of an itemized invoice breakdown. You will see who and how much each person gets paid, usually the scholar, guild and trainer, if any.
 
 ![expand payment details](04_Payments_Expand_Detail.gif)
 
