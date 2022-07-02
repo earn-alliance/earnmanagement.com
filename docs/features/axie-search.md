@@ -4,8 +4,6 @@ sidebar_position: 3
 
 # Axie Search
 
-Traditionally, in the Axie marketplace, players can only see Axies in the one account they’re playing with.
-
 Our Axie dashboard gives you **a master overview of the Axies you own** across _all_ your tracked ronin wallets. Though you can also see any individual accounts' Axies from the [Tracker](tracker.md).
 
 
@@ -55,7 +53,7 @@ In the search field, enter the part you wish to search for. To select, click the
 * Selecting both R1 _and_ R2 genes for each part will filter for Axies with both R1 and R2 genes.
 * To select multiple parts, enter in the search field and click into the part. Select as many parts as you’d like.
 
-**Note that every search of multiple parts is a function of “and,” not “or.” **For example, if you’re searching for two parts (i.e. Ronin and Imp), the Axies that appear share both Ronin _and_ Imp parts.
+_Note: every search of multiple parts is a function of “and,” not “or.” For example, if you’re searching for two parts (i.e. Ronin and Imp), the Axies that appear share both Ronin and Imp parts._
 
 ![axie parts](03_Axies_Parts.gif)
 
@@ -70,4 +68,6 @@ After filtering your Axies, you’ll be able to see them by selecting the **gall
 
 Select “Clear All” on the left to **reset your search**.
 
-Use the search bar at the top right corner to **search for Axies by name**. 
+### Filter Axies by Account(s) and Label(s)
+
+To view Axies from specific account(s) or label(s) only, use the filters on the top to select individual or multiple accounts and labels.
