@@ -4,11 +4,16 @@ sidebar_position: 2
 
 # Insights  
 
-As a scholarship owner or manager, how do you keep track of accounts attached to inactive scholars? Do you scroll through your tracker to flag the accounts that have logged 0 SLP today? Do you then repeat this time-consuming process the day after, and the one after that? 
+The Insights feature is designed to help scholarship managers easily and efficiently monitor their scholars' and guild's performance, whether it is by:
+* Auditing a scholar's performance by filtering and flagging based on SLP earned
+* Getting an overview of your guild's earnings and games played across days, weeks or months
+* Understanding which Axie team brings home the most earnings - no guesswork involved!  
 
-Our Insights feature allows you to **quickly** **audit your scholars’ performance** and **immediately identify consistently high-performing, under-performing or inactive accounts**. 
+_Note: All data in Insights starts tracking from the moment you've imported your accounts; you will not be able to immediately retrieve any data from this feature. If you're new to Earn Management, check back in 24 hours!_  
 
-_Note: Insights only starts tracking from the moment you've imported your accounts; you will not be able to immediately retrieve any data from this feature._  
+### Audit Performance
+
+Audit Performance allows you to **quickly audit your scholars’ performance** and **immediately identify consistently high-performing, under-performing or inactive accounts**. 
 
 You can do this using 3 filters:
 
@@ -21,14 +26,14 @@ The accounts that meet the selected criteria will appear below. For each account
 * The # of days it logged x amount or range of daily SLP
 * Today’s SLP 
 * Yesterday’s SLP 
-* Week SLP: Week avg daily SLP
-* Month SLP: Last 30 day avg daily SLP
+* Week SLP: Total SLP this week 
+* Month SLP: Total SLP this month 
 * MMR
 * Lifetime value  
 
 ![insights](09_Insights.png)
 
-### Inactive Accounts 
+#### Inactive Accounts 
 
 The best use case of this feature is **screening for accounts that have not been active**. 
 
@@ -43,7 +48,7 @@ You will see below that in this scholarship, 98 accounts have registered 0 SLP e
 ![insights filter](09_Insights_3days.gif)
 
 
-### Flag Accounts
+#### Flag Accounts
 
 After generating a list of accounts you're interested in, you are able to flag all accounts at once by clicking Select All and Bulk Flag Accounts. 
 
@@ -70,3 +75,25 @@ Click Export to download all data.
 ![BulkFlag_Export](09_BulkFlag_Export.gif)
 
 Beyond the day-to-day account tracking, the Insights feature gives you a high-level, big-picture view of which - and the number of - accounts that are performing in a specific catergory, and allows you to organize your monitoring process in a systematic way.  
+
+### Guild Performance 
+
+In addition to tracking how individual scholars' performance, you can also get an **overview of your guild's health** in Guild Performance. 
+
+Switch between Month, Week and Day views to view:
+* Scholars' highest, lowest and average rank
+* Average SLP earned 
+* Win rate
+* Average MMR  
+* Total games played 
+* Total Earnings  
+
+![Guild_Performance](09_Guild-Performance.png)
+
+![Guild_Performance](09_Guild-Performance2.png)
+
+### Axie Teams
+
+In the Axie Teams tab, you'll be able to see your guild's **Axie teams ranked from highest-performing to lowest-performing**, according to SLP earned. Expand each row to quickly see which of your accounts are using these teams, and what order they have their Axies in. 
+
+![Axie_Teams](09_Axie-Teams_Expand.gif)
