@@ -71,3 +71,5 @@ Select “Clear All” on the left to **reset your search**.
 ### Filter Axies by Account(s) and Label(s)
 
 To view Axies from specific account(s) or label(s) only, use the filters on the top to select individual or multiple accounts and labels.
+
+![Filter_by_account](03_Axies_Filter-By-Account.png)
