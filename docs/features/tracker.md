@@ -157,7 +157,7 @@ Get an overview of any scholar's performance by clicking anywhere on the account
 
 _Note: Games played data is only available from April 2022 onwards._
 
-[TOOD: ADD SNAPSHOT]
+![Scholar-Performance](01_Tracker_Scholar-Performance.png)
 
 
 ### Flag Accounts
