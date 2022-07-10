@@ -14,7 +14,7 @@ Here’s how to get started:
 
 ![log in](01_Getting_Started_Log_In.gif)
 
-3. If you are a **guild owner or manager** and setting up an account for your guild, enter your account name and **treasury** ronin wallet address.
+3. If you are a **guild owner or manager** and setting up an account for your guild, enter your account name and (optionally) add a **treasury** ronin wallet address. The wallet is not necessary for setting up an account, but will be required to execute [Payments](../features/payments.md). This can be added later. 
 
 ![add ronin account](01_Getting_Started_Add_Ronin_Account.gif)
 

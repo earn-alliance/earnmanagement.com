@@ -16,7 +16,7 @@ That enables our system to **track the scholars’ performances** and their **wa
 2. Ronin address _(this is the account your scholar plays on)_
 3. Scholar’s % revenue share
 
-After entering your scholar’s %, the manager’s % revenue share will be automatically updated to equal 100%.
+After entering your scholar’s %, the guild’s % revenue share will be automatically updated to equal 100%.
 
 ![add account2](02_Tracker_Add_Account2.gif)
 
@@ -53,16 +53,11 @@ Enter as many tags as you wish to help you quickly filter and organize your scho
 
 6. Trainer’s ronin address
 
-This can be a mentor or investor that gets a revenue share off this scholar.
-
-
-Again, if the payment address is not available, adjust the toggle to enter the trainer’s email address instead.
-
-![use trainer email](01_Tracker_Use_Trainer_Email.gif)
+This can be a trainer, mentor or investor that gets a revenue share off this scholar.
 
 7. Trainer’s % revenue share
 
-The manager, scholar and trainer’s % revenue share will automatically add up to 100%. This share percentage will be deducted from the manager’s share pool.
+The guild, scholar and trainer’s % revenue share will automatically add up to 100%. This share percentage will be deducted from the guild’s share pool.
 
 8. Last paid date
 
@@ -132,6 +127,7 @@ With each account added, you’ll be able to **access the following data**:
 * Average Games Played _(average daily games played)_
 * Total MMR 
 * Average MMR
+* Unclaimed SLP _(amount of SLP since last claim)_
 * Number of Axies
 
 ### Sort Accounts
@@ -148,6 +144,22 @@ Easily view any account's Axies by selecting the # Axies in each account row.
 
 ![ViewAxies](01_Tracker_View-Axies.gif)
 
+### View Scholar's Performance Over Time
+
+Get an overview of any scholar's performance by clicking anywhere on the account row. You'll be able to see how the scholar's performed over time by month, week or days.  
+
+* Highest, lowest and average rank 
+* Average SLP earned 
+* Win rate 
+* MMR
+* Games played 
+* Total earnings
+
+_Note: Games played data is only available from April 2022 onwards._
+
+![Scholar-Performance](01_Tracker_Scholar-Performance.png)
+
+
 ### Flag Accounts
 
 Flag accounts using the action menu on the right.
@@ -158,7 +170,7 @@ In the action menu, you can also clear all the flags associated with an account.
 
 ![flag-account](02_Tracker_Flag-Account.gif)
 
-Note that accounts can have a maximum of 3 flags. Any attempt to add any additional flags will result in an error message.
+_Note: accounts can have a maximum of 3 flags. Any attempt to add any additional flags will result in an error message._
 
 ### Unassign Accounts
 
@@ -170,7 +182,6 @@ This includes:
 * Scholar payment address
 * Scholar email 
 * Trainer payment address
-* Trainer email 
 * Last paid date 
 
 ![unassignaccount](02_Tracker_UnassignAccount.gif)
@@ -179,7 +190,7 @@ This includes:
 
 Perform the following actions in bulk by selecting one or more (or all) account(s).  
 
-* Change scholar, manager and trainer % share 
+* Change scholar, guild and trainer % share 
 * Change scholar's last paid date 
 * Add label(s)
 * Clear all labels
