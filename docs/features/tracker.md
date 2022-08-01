@@ -113,7 +113,7 @@ Upload your `.json` or Excel file
 
 View your newly imported accounts!
 
-_Note: Accounts cannot be duplicated on the tracker. If you attempt to import a file with duplicate accounts, an error message will occur._
+_Note: While duplicate payment wallets are allowed, gameplay wallets cannot be duplicated on the tracker. If you attempt to import a file with duplicate account wallets, an error message will occur._
 
 ### Tracked Data
 
@@ -154,8 +154,6 @@ Get an overview of any scholar's performance by clicking anywhere on the account
 * MMR
 * Games played 
 * Total earnings
-
-_Note: Games played data is only available from April 2022 onwards._
 
 ![Scholar-Performance](01_Tracker_Scholar-Performance.png)
 
