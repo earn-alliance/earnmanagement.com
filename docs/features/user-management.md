@@ -41,7 +41,7 @@ With an account, they can:
 ## Invite Users
 There are 3 ways to invite users.
 
-### Invite Scholar or Trainer via Tracker
+### Invite Scholar via Tracker
 
 Using the [Tracker](tracker.md), you may invite a user while adding/editing an account.
 
