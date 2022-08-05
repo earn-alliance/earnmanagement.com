@@ -1,6 +1,6 @@
-﻿# Why it's hard to scale your scholarship program?
+﻿# Why it's hard to scale your scholarship program
 
-You have finally gotten to building your scholarship program, whether on your own journey or after having read the tips in the [[previous blogs](https://www.google.com/url?q=https://www.earnalliance.com/blog/2022/07/20/Axie-Infinity-V2-Management-Pro-Tips/Axie-Infinity-V2-Management-Pro-Tips&sa=D&source=editors&ust=1659705337290344&usg=AOvVaw03iimRWrESsEmOEKHk-pYu)]( https://www.earnalliance.com/blog/2022/07/20/Axie-Infinity-V2-Management-Pro-Tips/Axie-Infinity-V2-Management-Pro-Tips), you've succeeded in starting and now you are looking to scale your scholarship program. Still, you realise that repeating the same processes could take more time than you can offer.
+You have finally gotten to building your scholarship program, whether on your own journey or after having read the tips in the [previous blog](https://www.earnalliance.com/blog/2022/07/20/Axie-Infinity-V2-Management-Pro-Tips/Axie-Infinity-V2-Management-Pro-Tips), you've succeeded in starting and now you are looking to scale your scholarship program. Still, you realise that repeating the same processes could take more time than you can offer.
 
 There are plenty of issues other than the biggest one, **time**, especially if you have a competing responsibilities. In this instance, worrying about managing a scholarship program adds stress.
 
@@ -36,4 +36,4 @@ Why?
 
 *And more!* ([[Overview | Earn Alliance](https://www.earnalliance.com/docs/introduction/overview)](https://www.earnalliance.com/docs/introduction/overview))
 
-Looking for more than what's available in **Earn Management**? With an active community and a devoted team, suggestions to improve the application are highly appreciated and heeded by the wonderful team Earn Alliance has created.
+Looking for more than what's available in **Earn Management**? With an active community and a devoted team, suggestions to improve the application are highly appreciated and actioned by the team at Earn Alliance.
