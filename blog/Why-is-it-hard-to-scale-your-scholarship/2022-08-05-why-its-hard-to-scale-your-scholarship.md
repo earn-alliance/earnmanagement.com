@@ -34,6 +34,6 @@ Why?
 
 ![07_BuildsTeams_CreateBuilds-b9b1bf2950c624bbee1764aa1c00b1aa](images/image2.gif)
 
-*And more!* ([[Overview | Earn Alliance](https://www.earnalliance.com/docs/introduction/overview)](https://www.earnalliance.com/docs/introduction/overview))
+*And more!* ([Overview | Earn Alliance](https://www.earnalliance.com/docs/introduction/overview))
 
 Looking for more than what's available in **Earn Management**? With an active community and a devoted team, suggestions to improve the application are highly appreciated and actioned by the team at Earn Alliance.
