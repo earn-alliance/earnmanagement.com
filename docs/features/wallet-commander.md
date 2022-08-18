@@ -108,7 +108,7 @@ At the top right, you will find your **Client ID**.
 Copy that and run the following command in your terminal.
 
 ```
-wallet-commander start earn-alliance -–client-id [enter-client-id-here]
+wallet-commander start earn-alliance --client-id [enter-client-id-here]
 ```
 
 If you are successful, you will find the following logs:
