@@ -1,4 +1,4 @@
-﻿# Axies, SLP and Winrate: Tracking Players Made Easy
+﻿# Tracking Scholarships: Axies, SLP and Winrate? Make it easy
 
 As an Axie Infinity Scholarship Manager, it’s a given that you would want to track how your players are doing with the Axie teams you have entrusted to them.
 
