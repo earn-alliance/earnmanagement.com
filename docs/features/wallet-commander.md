@@ -12,7 +12,7 @@ Earn Alliance does not wish to and **will never take custody of your private key
 
 The owner of the wallet(s) that are being managed by a third-party, such as Earn Alliance, can **register private keys with specific permissions on what the third-party is allowed to do with them**.
 
-The tool will be open-source so that the code can be audited for safety and security. View the code [here](https://github.com/earn-alliance/wallet-commander-cli/). 
+The tool will be open source so that the code can be audited for safety and security. View the code [here](https://github.com/earn-alliance/wallet-commander-cli/). 
 
 ## Current Status
 
@@ -72,6 +72,11 @@ First, you need to set up your private keys. Then, you can run the `wallet-comma
 #### Set Up Private Keys
 To start signing remote commands such as Payments, Claims and Distribution of Accounts, you will need to first set up your `secrets.json` file, which is a json map of a `{ronin-address}:{private-key}`. 
 
+To create your `secrets.json` file:
+1. Open any text editor on your computer
+2. Use this template `{ronin-address}:{private-key}`
+3. Name the file `secrets` and save it with the `.json` extension
+
 To find your private key:
 1. Go to your ronin account
 2. Click Manage at the top right
@@ -91,9 +96,6 @@ Your `secrets.json` file will look like this:
 }
 ```
 
-Ensure the file is named `secrets.json` and is stored in the same folder from which the command is run.
-
-
 #### Start the `wallet-commander`
 Once your private keys file is ready, you can start the `wallet-commander` to sign operations on your behalf. 
 
@@ -109,6 +111,14 @@ Copy that and run the following command in your terminal.
 
 ```
 wallet-commander start earn-alliance --client-id [enter-client-id-here]
+```
+
+The `secrets.json` file must be stored in the same folder from which the Wallet Commander is run. 
+
+To ensure your `secrets.json` file is stored in the correct location, run this command (remembering to enter your Client ID in the command):
+
+```
+wallet-commander start earn-alliance --client-id [enter-client-id-here] --secrets-file ../secrets.json
 ```
 
 If you are successful, you will find the following logs:
