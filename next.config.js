@@ -2,6 +2,16 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  exportPathMap: async function (
+    defaultPathMap,
+    { dev, dir, outDir, distDir, buildId }
+  ) {
+    return {
+      '/': { page: '/' },
+      '/home': { page: '/home' },
+      '/index': { page: '/index' },
+    };
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
