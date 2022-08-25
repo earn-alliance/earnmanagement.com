@@ -22,7 +22,6 @@ module.exports = withNextEnv({
     return {
       '/': { page: '/' },
       '/home': { page: '/home' },
-      '/index': { page: '/index' },
     };
   },
 });
