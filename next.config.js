@@ -17,7 +17,7 @@ module.exports = withNextEnv({
     trailingSlash: true,
   },
   presets: ['next/babel'],
-
+  distDir: 'build',
   async exportPathMap() {
     return {
       '/': { page: '/' },
