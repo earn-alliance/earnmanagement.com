@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Axie Search
+# Axies 
 
 Our Axie dashboard gives you **a master overview of the Axies you own** across _all_ your tracked ronin wallets. Though you can also see any individual accounts' Axies from the [Tracker](tracker.md).
 
@@ -73,3 +73,21 @@ Select “Clear All” on the left to **reset your search**.
 To view Axies from specific account(s) or label(s) only, use the filters on the top to select individual or multiple accounts and labels.
 
 ![Filter_by_account](03_Axies_Filter-By-Account.png)
+
+### Send Axies 
+
+To **transfer Axies to scholar accounts directly from your Axies dashboard**, make sure you've installed the latest version of [Wallet Commander](wallet-commander.md). 
+
+If you've installed the Wallet Commander for the first time, open up the Wallet Commander and enter the transfer command by copying it directly from the Axie page.
+
+![03_Axies_Connect-Wallet-Commander](03_Axies_Connect-Wallet-Commander.gif)
+
+
+To start an Axie transfer, **click on the little blue arrow at the top right of the Axie card**. Search for / select the account you're wanting to send the Axie to in the dropdown. 
+
+![03_Axies_send-axie](03_Axies_Send-Axies.gif)
+
+If you don't have a specific target wallet in mind, use the quick filters to curate wallets with 0 Axies in them, and/or wallets that are not assigned to scholars.
+
+If all goes to plan, a success message will appear at the top right. And that's Axie sending, done and done! 
+
