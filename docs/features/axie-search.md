@@ -85,7 +85,7 @@ If you've installed the Wallet Commander for the first time, open up the Wallet 
 
 To start an Axie transfer, **click on the little blue arrow at the top right of the Axie card**. Search for / select the account you're wanting to send the Axie to in the dropdown. 
 
-![03_Axies_send-axie](03_Axies_send-axie.gif)
+![03_Axies_send-axie](03_Axies_Send-Axies.gif)
 
 If you don't have a specific target wallet in mind, use the quick filters to curate wallets with 0 Axies in them, and/or wallets that are not assigned to scholars.
 
