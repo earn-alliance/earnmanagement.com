@@ -2,10 +2,21 @@
 slug: hello-metaverse
 title: Hello, Metaverse
 authors: [earn-alliance]
-tags: ["Earn Alliance", "Axie Infinity", "Play To Earn", "Crypto Games", "NFT Games", "ETH", "SLP", "AXS", "Ronin"]
+tags:
+  [
+    'Earn Management',
+    'Axie Infinity',
+    'Play To Earn',
+    'Crypto Games',
+    'NFT Games',
+    'ETH',
+    'SLP',
+    'AXS',
+    'Ronin',
+  ]
 ---
 
-Welcome to **Earn Alliance**. We are a team of web3 enthusiasts, engineers and gamers, and we build tools to empower gaming communities to **play, connect and thrive** in the metaverse.
+Welcome to **Earn Management**. We are a team of web3 enthusiasts, engineers and gamers, and we build tools to empower gaming communities to **play, connect and thrive** in the metaverse.
 
 As scholarship owners, we're all too familiar with the challenges that come with running a guild within the play-to-earn ecosystem.
 
@@ -21,8 +32,4 @@ From understanding scholar performance and automating complex payments to creati
 
 We've just arrived at the new frontier. This is only the very beginning.
 
-
-Welcome aboard! Join us on [Discord](https://discord.com/channels/926167446648397836/949216955708112897 "Discord") to be a part of our community. We look forward to getting to know you.
-
-
-
+Welcome aboard! Join us on [Discord](https://discord.com/channels/926167446648397836/949216955708112897 'Discord') to be a part of our community. We look forward to getting to know you.

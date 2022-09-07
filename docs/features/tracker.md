@@ -30,14 +30,12 @@ Directly enter your scholar’s payment ronin address, or if that’s not availa
 
 You can either:
 
-* Enter the scholar’s email address 
-    * If they don’t already have an Earn Management account [invite them via email](user-management.md#invite-user-from-tracker) in the same field.
+- Enter the scholar’s email address
+  - If they don’t already have an Earn Management account [invite them via email](user-management.md#invite-user-from-tracker) in the same field.
 
 ![enter scholar email](01_Tracker_Use_Scholar_Email.gif)
 
-
 Note that **to** **use our [Payments](payments.md) feature,** your scholar’s payment ronin address must be entered.
-
 
 5. Label(s)
 
@@ -45,9 +43,9 @@ Labels are used to organize your accounts for quick search and filtering capabil
 
 Enter as many tags as you wish to help you quickly filter and organize your scholars, such as:
 
-* GUILD-1
-* TEAM-BLUE
-* NINJA-SQUAD
+- GUILD-1
+- TEAM-BLUE
+- NINJA-SQUAD
 
 ![add labels](01_Tracker_Labels.gif)
 
@@ -65,14 +63,13 @@ Enter the last date the scholar was paid. By leaving it blank, it will default t
 
 **You’re now tracking your first scholar’s ronin wallet!**
 
-
 ### Bulk Import
 
-Rather than add accounts one-by-one manually, you can choose to **bulk import all scholars’ accounts** by uploading a `.json` or Excel file. 
+Rather than add accounts one-by-one manually, you can choose to **bulk import all scholars’ accounts** by uploading a `.json` or Excel file.
 
-1. If you currently use [Axie Management](https://axie.management), you may export your data in a `.json` file and directly import it into Earn Alliance.
+1. If you currently use [Axie Management](https://axie.management), you may export your data in a `.json` file and directly import it into Earn Management.
 
-You can also find the following format here: 
+You can also find the following format here:
 
 ```
     {
@@ -97,9 +94,9 @@ You can also find the following format here:
         "trainer_payment_ronin_wallet": "ronin:9989c845f4bf7930707734cb257ccc6b66e94220",
         "last_pay_date": "2022-02-15"
     }
-``` 
+```
 
-3. Using Excel? Here's a [demo template](https://docs.google.com/spreadsheets/d/1RqtQKuyx5ZjDDd0tOR6gDnNrzkn7NlYU/edit?usp=sharing&ouid=115387068804829440568&rtpof=true&sd=true). 
+3. Using Excel? Here's a [demo template](https://docs.google.com/spreadsheets/d/1RqtQKuyx5ZjDDd0tOR6gDnNrzkn7NlYU/edit?usp=sharing&ouid=115387068804829440568&rtpof=true&sd=true).
 
 #### How to Import
 
@@ -119,16 +116,16 @@ _Note: While duplicate payment wallets are allowed, gameplay wallets cannot be d
 
 With each account added, you’ll be able to **access the following data**:
 
-* Labels
-* Today SLP
-* Yesterday SLP
-* Average SLP 
-* Games Played Today _(total games played in a 24-hour-period yesterday)_
-* Average Games Played _(average daily games played)_
-* Total MMR 
-* Average MMR
-* Unclaimed SLP _(amount of SLP since last claim)_
-* Number of Axies
+- Labels
+- Today SLP
+- Yesterday SLP
+- Average SLP
+- Games Played Today _(total games played in a 24-hour-period yesterday)_
+- Average Games Played _(average daily games played)_
+- Total MMR
+- Average MMR
+- Unclaimed SLP _(amount of SLP since last claim)_
+- Number of Axies
 
 ### Sort Accounts
 
@@ -140,23 +137,22 @@ Utilizing this data will help you make decisions in building an even more succes
 
 ### View Accounts' Axies
 
-Easily view any account's Axies by selecting the # Axies in each account row. 
+Easily view any account's Axies by selecting the # Axies in each account row.
 
 ![ViewAxies](01_Tracker_View-Axies.gif)
 
 ### View Scholar's Performance Over Time
 
-Get an overview of any scholar's performance by clicking anywhere on the account row. You'll be able to see how the scholar's performed over time by month, week or days.  
+Get an overview of any scholar's performance by clicking anywhere on the account row. You'll be able to see how the scholar's performed over time by month, week or days.
 
-* Highest, lowest and average rank 
-* Average SLP earned 
-* Win rate 
-* MMR
-* Games played 
-* Total earnings
+- Highest, lowest and average rank
+- Average SLP earned
+- Win rate
+- MMR
+- Games played
+- Total earnings
 
 ![Scholar-Performance](01_Tracker_Scholar-Performance.png)
-
 
 ### Flag Accounts
 
@@ -172,36 +168,37 @@ _Note: accounts can have a maximum of 3 flags. Any attempt to add any additional
 
 ### Unassign Accounts
 
-When a scholar is no longer playing on an account, **you can temporarily unassign an account** instead of deleting it from the tracker. 
+When a scholar is no longer playing on an account, **you can temporarily unassign an account** instead of deleting it from the tracker.
 
 Select "Unassign" from the action menu located on the far right of each account row. When an account is unassigned, all information attached to the scholar will be automatically removed.
 
 This includes:
-* Scholar payment address
-* Scholar email 
-* Trainer payment address
-* Last paid date 
+
+- Scholar payment address
+- Scholar email
+- Trainer payment address
+- Last paid date
 
 ![unassignaccount](02_Tracker_UnassignAccount.gif)
 
 ### Bulk Edit Accounts
 
-Perform the following actions in bulk by selecting one or more (or all) account(s).  
+Perform the following actions in bulk by selecting one or more (or all) account(s).
 
-* Change scholar, guild and trainer % share 
-* Change scholar's last paid date 
-* Add label(s)
-* Clear all labels
-* Add flag and corresponding note
-* Clear all flags
-* Unassign
-* Delete
-* Export 
+- Change scholar, guild and trainer % share
+- Change scholar's last paid date
+- Add label(s)
+- Clear all labels
+- Add flag and corresponding note
+- Clear all flags
+- Unassign
+- Delete
+- Export
 
-Selecting any one account will prompt action icons to appear. 
+Selecting any one account will prompt action icons to appear.
 
 ![bulk-edit-accounts](O2_Tracker_Bulk-Edit.gif)
 
 ### How We Track Data
 
-All data is synced on our servers every 3 hours using an API that speaks directly to Axie Infinity's servers. 
+All data is synced on our servers every 3 hours using an API that speaks directly to Axie Infinity's servers.

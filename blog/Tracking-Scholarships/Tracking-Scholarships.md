@@ -17,8 +17,7 @@ The critical data points you need to track are:
 - Account Ronin Address
 - Guild Overall Performance
 
-
-![](images/image1.png)![](images/image4.png)  
+![](images/image1.png)![](images/image4.png)
 
 It seems excessive, yes, but these are essential for you to know if your scholarship program is doing well and if you have some internal or external adjustments to make. With these data in hand, you will see where problems might lie:
 
@@ -34,8 +33,7 @@ With these in mind, you can decide what course of action you will take according
 - Leaderboard Ranking
 - Energy
 
-
-![](images/image5.png)  
+![](images/image5.png)
 
 A simple Excel Sheet may suffice by manually keeping track of these, but there are trackers out there that automatically track them for you. However, why settle for a simple tracker when Earn Management can efficiently and effectively track everything for you? That's on top of being able to simplify dealing with problems that may arise, such as:
 
@@ -44,9 +42,8 @@ A simple Excel Sheet may suffice by manually keeping track of these, but there a
 - Payments
 - Axie Gifting/Sending
 
-
 ![](images/image2.gif)
 
 ![](images/image3.gif)
 
-All of which you can do in bulk! Earn Management has all of these features ready to go - [Scholar Tracker | Earn Alliance](https://www.google.com/url?q=https://www.earnalliance.com/&sa=D&source=editors&ust=1660660709630031&usg=AOvVaw2bpbEY4lq-TbcXiwZ-u5Zh)
+All of which you can do in bulk! Earn Management has all of these features ready to go - [Scholar Tracker | Earn Management](https://www.google.com/url?q=https://www.earnalliance.com/&sa=D&source=editors&ust=1660660709630031&usg=AOvVaw2bpbEY4lq-TbcXiwZ-u5Zh)
