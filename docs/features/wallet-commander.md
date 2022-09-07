@@ -4,29 +4,28 @@ sidebar_position: 8
 
 # Wallet Commander
 
-The Wallet Commander is an open-source utility used for **signing blockchain operations for Earn Alliance**.
+The Wallet Commander is an open-source utility used for **signing blockchain operations for Earn Management**.
 
-For blockchains like Axie Infinity's Ronin Network, it is not possible to deploy smart contracts to execute complex operations in a decentralized fashion. 
+For blockchains like Axie Infinity's Ronin Network, it is not possible to deploy smart contracts to execute complex operations in a decentralized fashion.
 
-Earn Alliance does not wish to and **will never take custody of your private keys**. We developed the Wallet Commander to run on your machine and automatically process operations that you have requested on Earn Alliance.
+Earn Management does not wish to and **will never take custody of your private keys**. We developed the Wallet Commander to run on your machine and automatically process operations that you have requested on Earn Management.
 
-The owner of the wallet(s) that are being managed by a third-party, such as Earn Alliance, can **register private keys with specific permissions on what the third-party is allowed to do with them**.
+The owner of the wallet(s) that are being managed by a third-party, such as Earn Management, can **register private keys with specific permissions on what the third-party is allowed to do with them**.
 
-The tool will be open source so that the code can be audited for safety and security. View the code [here](https://github.com/earn-alliance/wallet-commander-cli/). 
+The tool will be open source so that the code can be audited for safety and security. View the code [here](https://github.com/earn-alliance/wallet-commander-cli/).
 
 ## Current Status
 
 The Wallet Commander is currently in **alpha** status. Currently there is no whitelist protection of ensuring wallet commands are transferring assets amongst wallets you have approved. We are aiming to quickly get the Wallet Commander to beta status with improved security.
 
-
 ## Getting Started
 
-First, install the `wallet-commander` on your computer. Depending on the machine you’re using, follow the correct installation instructions below. 
-
+First, install the `wallet-commander` on your computer. Depending on the machine you’re using, follow the correct installation instructions below.
 
 ### Installation
 
 #### Windows
+
 Ensure you have the following requirements on your Windows machine:
 
 Windows 7 SP1+ / Windows Server 2008+
@@ -42,17 +41,18 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://raw.
 
 Once completed, you may open up a new Powershell command prompt and then run the `wallet-commander help` command to confirm it has been installed successfully.
 
-
 #### Mac
+
 Install the `wallet-commander` on your machine by running the following commands.
 
 ```
 curl -L https://raw.githubusercontent.com/earn-alliance/wallet-commander-cli/main/install.sh | bash
 ```
+
 Restart the terminal and then run the `wallet-commander help` command to confirm it has been installed successfully.
 
-
 #### Linux
+
 Run the following commands – which will ensure you have unzip installed – and install the `wallet-commander` to your path:
 
 ```
@@ -62,22 +62,24 @@ curl -L https://raw.githubusercontent.com/earn-alliance/wallet-commander-cli/mai
 
 Restart the terminal and then run the `wallet-commander help` command to confirm it has been installed successfully.
 
-
 ### Process Remote Commands
-Processing remote commands allows you to sign requests for Earn Alliance. 
+
+Processing remote commands allows you to sign requests for Earn Management.
 
 First, you need to set up your private keys. Then, you can run the `wallet-commander`.
 
-
 #### Set Up Private Keys
-To start signing remote commands such as Payments, Claims and Distribution of Accounts, you will need to first set up your `secrets.json` file, which is a json map of a `{ronin-address}:{private-key}`. 
+
+To start signing remote commands such as Payments, Claims and Distribution of Accounts, you will need to first set up your `secrets.json` file, which is a json map of a `{ronin-address}:{private-key}`.
 
 To create your `secrets.json` file:
+
 1. Open any text editor on your computer
 2. Use this template `{ronin-address}:{private-key}`
 3. Name the file `secrets` and save it with the `.json` extension
 
 To find your private key:
+
 1. Go to your ronin account
 2. Click Manage at the top right
 3. Find the wallet
@@ -86,7 +88,6 @@ To find your private key:
 ![view private key](10_Wallet-Commander_Private-Key.gif)
 
 Your `secrets.json` file will look like this:
-
 
 ```.json
 {
@@ -97,13 +98,14 @@ Your `secrets.json` file will look like this:
 ```
 
 #### Start the `wallet-commander`
-Once your private keys file is ready, you can start the `wallet-commander` to sign operations on your behalf. 
 
-To do this you will need to get your **Client ID** from Earn Alliance.
+Once your private keys file is ready, you can start the `wallet-commander` to sign operations on your behalf.
 
-Click the Settings icon at the top right of your account and go to the Wallet Commander. 
+To do this you will need to get your **Client ID** from Earn Management.
 
-At the top right, you will find your **Client ID**. 
+Click the Settings icon at the top right of your account and go to the Wallet Commander.
+
+At the top right, you will find your **Client ID**.
 
 ![wallet commander client id](10_Wallet-Commander_Client-ID.png)
 
@@ -113,7 +115,7 @@ Copy that and run the following command in your terminal.
 wallet-commander start earn-alliance --client-id [enter-client-id-here]
 ```
 
-The `secrets.json` file must be stored in the same folder from which the Wallet Commander is run. 
+The `secrets.json` file must be stored in the same folder from which the Wallet Commander is run.
 
 To ensure your `secrets.json` file is stored in the correct location, run this command (remembering to enter your Client ID in the command):
 
@@ -129,18 +131,14 @@ If you are successful, you will find the following logs:
 
 ![wallet commander usage](10_Wallet-Commander_Usage.png)
 
-When the `wallet-commander` is running, it takes transaction requests from Earn Alliance and signs them with your private keys. The following events may occur when performing operations with Earn Alliance:
+When the `wallet-commander` is running, it takes transaction requests from Earn Management and signs them with your private keys. The following events may occur when performing operations with Earn Management:
 
-* [Ronin Claims](payments.md#start-payments) - When processing a PENDING_CLAIM event from a Payment Event, the Wallet Commander will sign and request claims on your behalf
-* [SLP Transfers](payments.md#start-payments) - When transferring SLP, the Wallet Commander will sign transfer requests to execute a Payment Event
-* Axie Transfers - When distributing Axies with [Team Matchmaking](builds-and-teams.md#team-templates), the Wallet Commander will sign transfers of Axie assets
+- [Ronin Claims](payments.md#start-payments) - When processing a PENDING_CLAIM event from a Payment Event, the Wallet Commander will sign and request claims on your behalf
+- [SLP Transfers](payments.md#start-payments) - When transferring SLP, the Wallet Commander will sign transfer requests to execute a Payment Event
+- Axie Transfers - When distributing Axies with [Team Matchmaking](builds-and-teams.md#team-templates), the Wallet Commander will sign transfers of Axie assets
 
 In the future, the following operations will be added:
 
-* AXS Claims and Transfers - Ability to transfer AXS and claim winnings
-* RON Transfers - Automatically transfer RON to accounts in need
-* Account Creation and Validation - Automatically create new ronin wallets and validate their emails
-
-
-
-
+- AXS Claims and Transfers - Ability to transfer AXS and claim winnings
+- RON Transfers - Automatically transfer RON to accounts in need
+- Account Creation and Validation - Automatically create new ronin wallets and validate their emails

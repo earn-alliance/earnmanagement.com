@@ -7,7 +7,7 @@ require('dotenv').config();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Earn Alliance',
+  title: 'Earn Management',
   tagline: 'Guild of Guilds',
   url: 'https://earnalliance.com',
   baseUrl: '/',
@@ -30,7 +30,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/earn-alliance/earnalliance.com/tree/main',
+          editUrl:
+            'https://github.com/earn-alliance/earnalliance.com/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -49,9 +50,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Earn Alliance',
+        title: 'Earn Management',
         logo: {
-          alt: 'Earn Alliance Logo',
+          alt: 'Earn Management Logo',
           src: 'img/EarnHome.png',
         },
         items: [
@@ -61,18 +62,18 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://app.earnalliance.com',
             label: 'Login',
             position: 'right',
-            className: 'header-login-link'
+            className: 'header-login-link',
           },
           {
             href: 'https://app.earnalliance.com/signup',
             label: 'Register',
             position: 'right',
-            className: 'header-register-link'
+            className: 'header-register-link',
           },
         ],
       },
@@ -86,10 +87,10 @@ const config = {
                 label: 'Docs',
                 to: '/docs/introduction/overview',
               },
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               // {
               //   label: 'Login',
               //   href: 'https://app.earnmanagement.com'
@@ -131,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Earn Alliance Limited. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Earn Management Limited. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

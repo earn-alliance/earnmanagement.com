@@ -12,7 +12,7 @@ Managing a scholarship program means:
 
 - Team Creation: considering how many different types of Axies there are, building a team could be complex, especially with the meta changing per season. You would want to make a long-lasting and versatile team to maximize ROI efficiency.
 
-- Recruitment: it’s hard to choose from a vast quantity of people, especially if you are more of a *quality over quantity* kind of person, so other than filtering from possible multi-accounting players, you now must account for players that are well-experienced to not only meet but exceed your expectations.
+- Recruitment: it’s hard to choose from a vast quantity of people, especially if you are more of a _quality over quantity_ kind of person, so other than filtering from possible multi-accounting players, you now must account for players that are well-experienced to not only meet but exceed your expectations.
 
 - Monitoring Performance: having spent much time recruiting and building teams, it would be terrible to not serve each team justice by not being played properly if at all.
 
@@ -22,7 +22,7 @@ This is why we built [Earn Management](https://app.earnalliance.com/) (https://a
 
 Why?
 
-- Scholar Tracker: keep track of all your gamers, track all account performance levels, information, Ronin addresses (*of theirs, yours, and your trainer!*), and data tracking (*SLP gains, MMR, Unclaimed SLP, and number of Axies*).
+- Scholar Tracker: keep track of all your gamers, track all account performance levels, information, Ronin addresses (_of theirs, yours, and your trainer!_), and data tracking (_SLP gains, MMR, Unclaimed SLP, and number of Axies_).
 
 ![02_Tracker_Add_Account2-e99b7f7bb335ead11b2961b5eba932de](images/image1.gif)
 
@@ -34,6 +34,6 @@ Why?
 
 ![07_BuildsTeams_CreateBuilds-b9b1bf2950c624bbee1764aa1c00b1aa](images/image2.gif)
 
-*And more!* ([Overview | Earn Alliance](https://www.earnalliance.com/docs/introduction/overview))
+_And more!_ ([Overview | Earn Management](https://www.earnalliance.com/docs/introduction/overview))
 
-Looking for more than what's available in **Earn Management**? With an active community and a devoted team, suggestions to improve the application are highly appreciated and actioned by the team at Earn Alliance.
+Looking for more than what's available in **Earn Management**? With an active community and a devoted team, suggestions to improve the application are highly appreciated and actioned by the team at Earn Management.
