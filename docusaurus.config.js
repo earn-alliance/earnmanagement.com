@@ -62,7 +62,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://app.earnalliance.com',
             label: 'Login',
@@ -87,10 +87,10 @@ const config = {
                 label: 'Docs',
                 to: '/docs/introduction/overview',
               },
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               // {
               //   label: 'Login',
               //   href: 'https://app.earnmanagement.com'
