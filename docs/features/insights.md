@@ -18,17 +18,17 @@ Audit Performance allows you to **quickly audit your scholars’ performance** a
 You can do this using 3 filters:
 
 1. Date range: Select the last 3, 7, 14, or 30 days 
-2. Daily SLP: Select the amount/range of SLP a scholar has earned per day 
-3. Number of Days: Select the  # of days the scholar has earned the selected daily amount/range of SLP
+2. Daily SLP: Select the amount/range of SLP a scholar has earned per day OR Daily Games: Select the number/range of games a scholar has played per day
+3. Number of Days: Select the  # of days the scholar has earned the selected range of SLP / played the selected range of games
 
 The accounts that meet the selected criteria will appear below. For each account, you'll be able to see: 
 
-* The # of days it logged x amount or range of daily SLP
+* The # of days it logged x amount or range of daily SLP or daily games
+* Today's Games Played
+* Week's Games Played
 * Today’s SLP 
-* Yesterday’s SLP 
 * Week SLP: Total SLP this week 
-* Month SLP: Total SLP this month 
-* MMR
+* MMR/Rank
 * Lifetime value  
 
 ![insights](09_Insights.png)
