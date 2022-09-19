@@ -20,6 +20,6 @@ Scroll down and you’ll be able to see and sort by how much each wallet contain
 
 The wallet displayed at the top is your **designated treasury wallet** – this is the wallet that receives the guild share when [payments](payments.md) are processed. Set any wallet as the treasury from the action menu on the right.
 
-![treasury_wallet](05_Wallets_Treasury-Wallet.png)
+![treasury_wallet](05_Wallets_Treasury-Wallet2.png)
 
 Easily **search for wallets** by filtering for labels and/or entering the account name, alias, or ronin address in the search bar. 
