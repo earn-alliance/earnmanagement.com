@@ -16,7 +16,7 @@ Before you start Payments, **you must have [Wallet Commander](wallet-commander.m
 
 1. To **generate a Payment Event**, click “Generate Payments.”
 
-_Note: Payment Events are generated based on claims that occurred from their last paid date to today. 
+_Note: Payment Events are generated based on claims that occurred from their last paid date to today. Set scholars' last paid date in the [Tracker](tracker.md). You can do this in bulk._
 
 2. To pay only a select group of scholars, select label(s). 
 
