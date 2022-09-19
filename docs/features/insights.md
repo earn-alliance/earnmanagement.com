@@ -31,21 +31,7 @@ The accounts that meet the selected criteria will appear below. For each account
 * MMR/Rank
 * Lifetime value  
 
-![insights](09_Insights.png)
-
-#### Inactive Accounts 
-
-The best use case of this feature is **screening for accounts that have not been active**. 
-
-For example: You'd like to vet for inactive accounts that have logged 0 SLP for 3 days within the last 3 days.
-
-1. Select “Last 3 Days” for time frame 
-2. On the “Daily SLP” slider, drag it to 0 
-3. On the “# Days” slider, drag it to 3 days
-
-You will see below that in this scholarship, 98 accounts have registered 0 SLP every day for the last 3 days. 
-
-![insights filter](09_Insights_3days.gif)
+![insights](09_Insights_Audit-games-played.gif)
 
 
 #### Flag Accounts
