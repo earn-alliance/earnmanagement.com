@@ -208,7 +208,7 @@ As this is a paid feature, you must first contact support@earnalliance.com to re
 1. Connect [Wallet Commander](wallet-commander.md) with start command, which you can copy directly from the page 
 2. Specify how many wallets you'd like to create 
 
-![TODO: WALLET CREATION]
+![automated-wallet-creation](01_Tracker_Wallet-creation1.gif)
 
 As this is manually initiated by an engineer, the wallets will not be created immediately. As you are waiting for the wallets to be created, you'll be able to see the following information: 
 
@@ -216,6 +216,8 @@ As this is manually initiated by an engineer, the wallets will not be created im
 * Email 
 * Password (hidden for privacy; copy and paste to view)
 * Status: Pending, Processing, Created 
+
+![automated-wallet-creation](01_Tracker_Wallet-creation2.gif)
 
 
 ### How We Track Data
