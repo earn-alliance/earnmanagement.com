@@ -219,6 +219,10 @@ As this is manually initiated by an engineer, the wallets will not be created im
 
 ![automated-wallet-creation](01_Tracker_Wallet-creation2.gif)
 
+When the wallets have been created, you'll see the screen below. Simply copy the passwords to distribute to your new scholars! 
+
+![automated-wallet-creation](01_Tracker_Wallet-creation3.png)
+
 
 ### How We Track Data
 
