@@ -143,7 +143,7 @@ Easily view any account's Axies by selecting the # Axies in each account row.
 
 ### View Scholar's Performance Over Time
 
-Get an overview of any scholar's performance by clicking anywhere on the account row. You'll be able to see how the scholar's performed over time by month, week or days.
+Get an overview of any scholar's performance by clicking anywhere on the account row or from the action menu on the right. You'll be able to see how the scholar's performed over time by month, week or days.
 
 - Highest, lowest and average rank
 - Average SLP earned
@@ -198,6 +198,31 @@ Perform the following actions in bulk by selecting one or more (or all) account(
 Selecting any one account will prompt action icons to appear.
 
 ![bulk-edit-accounts](O2_Tracker_Bulk-Edit.gif)
+
+### Automated Account Creation 
+
+Onboarding scholars to an Axie Infinity guild can be tedious, as guild managers must manually create ronin wallets and go through an email verification process for each new scholar. For large guild users trying to scale by thousands of scholars at a time, this is not sustainable. We offer a way for guilds to automate the wallet creation & email verification process at the click of a button. 
+
+As this is a paid feature, you must first contact support@earnalliance.com to request access. You will be given a number of credits to create a certain number of wallets. 
+
+1. Connect [Wallet Commander](wallet-commander.md) with start command, which you can copy directly from the page 
+2. Specify how many wallets you'd like to create 
+
+![automated-wallet-creation](01_Tracker_Wallet-creation1.gif)
+
+As this is manually initiated by an engineer, the wallets will not be created immediately. As you are waiting for the wallets to be created, you'll be able to see the following information: 
+
+* Created At (date, time) 
+* Email 
+* Password (hidden for privacy; copy and paste to view)
+* Status: Pending, Processing, Created 
+
+![automated-wallet-creation](01_Tracker_Wallet-creation2.gif)
+
+When the wallets have been created, you'll see the screen below. Simply copy the passwords to distribute to your new scholars! 
+
+![automated-wallet-creation](01_Tracker_Wallet-creation3.png)
+
 
 ### How We Track Data
 

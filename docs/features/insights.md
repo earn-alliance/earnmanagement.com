@@ -18,34 +18,20 @@ Audit Performance allows you to **quickly audit your scholars’ performance** a
 You can do this using 3 filters:
 
 1. Date range: Select the last 3, 7, 14, or 30 days 
-2. Daily SLP: Select the amount/range of SLP a scholar has earned per day 
-3. Number of Days: Select the  # of days the scholar has earned the selected daily amount/range of SLP
+2. Daily SLP: Select the amount/range of SLP a scholar has earned per day OR Daily Games: Select the number/range of games a scholar has played per day
+3. Number of Days: Select the  # of days the scholar has earned the selected range of SLP / played the selected range of games
 
 The accounts that meet the selected criteria will appear below. For each account, you'll be able to see: 
 
-* The # of days it logged x amount or range of daily SLP
+* The # of days it logged x amount or range of daily SLP or daily games
+* Today's Games Played
+* Week's Games Played
 * Today’s SLP 
-* Yesterday’s SLP 
 * Week SLP: Total SLP this week 
-* Month SLP: Total SLP this month 
-* MMR
+* MMR/Rank
 * Lifetime value  
 
-![insights](09_Insights.png)
-
-#### Inactive Accounts 
-
-The best use case of this feature is **screening for accounts that have not been active**. 
-
-For example: You'd like to vet for inactive accounts that have logged 0 SLP for 3 days within the last 3 days.
-
-1. Select “Last 3 Days” for time frame 
-2. On the “Daily SLP” slider, drag it to 0 
-3. On the “# Days” slider, drag it to 3 days
-
-You will see below that in this scholarship, 98 accounts have registered 0 SLP every day for the last 3 days. 
-
-![insights filter](09_Insights_3days.gif)
+![insights](09_Insights_Audit-games-played.gif)
 
 
 #### Flag Accounts

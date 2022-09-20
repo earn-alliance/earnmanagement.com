@@ -16,18 +16,11 @@ Before you start Payments, **you must have [Wallet Commander](wallet-commander.m
 
 1. To **generate a Payment Event**, click “Generate Payments.”
 
-2. Select your payment start and end date, and “Generate.”
+_Note: Payment Events are generated based on claims that occurred from their last paid date to today. Set scholars' last paid date in the [Tracker](tracker.md). You can do this in bulk._
 
-When choosing a date range, it only picks up scholars _based on their last paid day_ on their account. 
+2. To pay only a select group of scholars, select label(s). 
 
-For example: when entering a earn start date of October 1st, 2021 and an earn end date of today (April 1st, 2022): 
-
-* If the scholar was last paid today, there would be no payment to generate.
-* If the scholar was last paid on November 1st, 2021, it will generate a payment for the scholar’s earnings between November 1st, 2021 and today.
-
-![earn start end date](04_Payments_Enter_Start_End_Date.gif)
-
-_Tip: Select a future date as your earn end date, so that the [Wallet Commander](wallet-commander.md) will pick up all pending claims between the time you created the Payment Event and the time you Start Payments._ 
+![select-payment-label](04_Payments_Generate.gif)
 
 3. For every **Payment Event**, you will see:
 
@@ -76,14 +69,7 @@ _Tip: Select a future date as your earn end date, so that the [Wallet Commander]
     * Paid
     * Unpaid
 
-3. Prior to starting a payment, all payments with a Pending Claim or Error status **must be resolved**. If you attempt to Start Payments with unresolved issues, a warning message will appear. 
 
-![Payment warning message](04_Payments_Error.gif)
-
-4. To resolve any accounts with Pending Claims, **use the payment status dropdown filter** to generate a list of accounts. Boot up the [Wallet Commander](wallet-commander.md), which will process all claims before calculating the final payment amount, and you will be able to see each event disappear from the list. To resolve Errors, use the dropdown filter again. You should be able to see the cause of the error under each account, and choose to skip if you wish. 
-
-![Payment status dropdown filter](04_Payments_Status-Filter.gif)
-
-5. When you are ready to **pay your scholars**, click “Start Payments." Wallet Commander events will be generated and each payment will be updated live on this page. You may also watch the generated payouts wallet commands get executed by selecting Wallet Commander under Settings at the top right. Here, you will see the transaction being updated on the blockchain in real time.
+3. When you are ready to **pay your scholars**, click “Start Claims and Payments." Wallet Commander events will be generated and each payment will be updated live on this page. You may also watch the generated payouts wallet commands get executed by selecting Wallet Commander under Settings at the top right. Here, you will see the transaction being updated on the blockchain in real time.
 
 And that’s payments done and dusted – sans messy excel sheets, SLP confusions, over- and under-paying scholars every month.
